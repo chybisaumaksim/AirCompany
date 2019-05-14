@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="63" passed="63" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-05-14T08:28:35Z" name="Command line suite" finished-at="2019-05-14T08:28:36Z" duration-ms="90">
+    <groups>
+    </groups>
+    <test started-at="2019-05-14T08:28:35Z" name="Command line test" finished-at="2019-05-14T08:28:36Z" duration-ms="90">
+      <class name="by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest">
+        <test-method signature="testTest(by.chybisau.firsttask.entity.FlyingMashine, double, boolean)[pri:0, instance:by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest@13c3c1e1]" started-at="2019-05-14T08:28:36Z" name="testTest" data-provider="cruisingSpeedFilterData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737 - 500, , passangerCapacity=240 passangers}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[800]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTest -->
+        <test-method signature="testTest(by.chybisau.firsttask.entity.FlyingMashine, double, boolean)[pri:0, instance:by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest@13c3c1e1]" started-at="2019-05-14T08:28:36Z" name="testTest" data-provider="cruisingSpeedFilterData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737 - 500, , passangerCapacity=240 passangers}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[910]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTest -->
+        <test-method signature="testTest(by.chybisau.firsttask.entity.FlyingMashine, double, boolean)[pri:0, instance:by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest@13c3c1e1]" started-at="2019-05-14T08:28:36Z" name="testTest" data-provider="cruisingSpeedFilterData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737 - 500, , passangerCapacity=240 passangers}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[850]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTest -->
+        <test-method signature="testTest(by.chybisau.firsttask.entity.FlyingMashine, double, boolean)[pri:0, instance:by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest@13c3c1e1]" started-at="2019-05-14T08:28:36Z" name="testTest" data-provider="cruisingSpeedFilterData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737 - 500, , passangerCapacity=240 passangers}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[852]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTest -->
+      </class> <!-- by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest -->
+      <class name="by.chybisau.firsttask.validator.StringValidatorTest">
+        <test-method signature="testValidate(java.lang.String, boolean)[pri:0, instance:by.chybisau.firsttask.validator.StringValidatorTest@388ba540]" started-at="2019-05-14T08:28:36Z" name="testValidate" data-provider="compareData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[passangerPlane, 5648, 852, 2700, BOEING, 737-700, 126]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidate -->
+        <test-method signature="testValidate(java.lang.String, boolean)[pri:0, instance:by.chybisau.firsttask.validator.StringValidatorTest@388ba540]" started-at="2019-05-14T08:28:36Z" name="testValidate" data-provider="compareData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[passangerPlane, 852, 2700, BOEING, 737-700, 126]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidate -->
+        <test-method signature="testValidate(java.lang.String, boolean)[pri:0, instance:by.chybisau.firsttask.validator.StringValidatorTest@388ba540]" started-at="2019-05-14T08:28:36Z" name="testValidate" data-provider="compareData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CargoPlanE,   5425,   853,   12600,   AN,  124,   120000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidate -->
+        <test-method signature="testValidate(java.lang.String, boolean)[pri:0, instance:by.chybisau.firsttask.validator.StringValidatorTest@388ba540]" started-at="2019-05-14T08:28:36Z" name="testValidate" data-provider="compareData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[passangerPlane, 8400, 850, 2800, BOEING, 737-600, 250]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidate -->
+        <test-method signature="testValidate(java.lang.String, boolean)[pri:0, instance:by.chybisau.firsttask.validator.StringValidatorTest@388ba540]" started-at="2019-05-14T08:28:36Z" name="testValidate" data-provider="compareData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[paSsAnGerPlaNe,  5648,  852,  2700,  Boeing,  737-700,   126]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidate -->
+        <test-method signature="testValidate(java.lang.String, boolean)[pri:0, instance:by.chybisau.firsttask.validator.StringValidatorTest@388ba540]" started-at="2019-05-14T08:28:36Z" name="testValidate" data-provider="compareData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PaSsAnGerPlAnE, 8400, 852, 2700, BoeiNG, 456-96f, 126]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidate -->
+      </class> <!-- by.chybisau.firsttask.validator.StringValidatorTest -->
+      <class name="by.chybisau.firsttask.factory.FlyingMachinesFactoryTest">
+        <test-method signature="testCreateTwo(java.lang.String, boolean)[pri:0, instance:by.chybisau.firsttask.factory.FlyingMachinesFactoryTest@5b40ceb]" started-at="2019-05-14T08:28:36Z" name="testCreateTwo" data-provider="dataTwo" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[passangerPlane1, 8400, 850, 2800, BOEING, 737-500, 240]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateTwo -->
+        <test-method signature="testCreate(by.chybisau.firsttask.entity.FlyingMashine, java.lang.String)[pri:0, instance:by.chybisau.firsttask.factory.FlyingMachinesFactoryTest@5b40ceb]" started-at="2019-05-14T08:28:36Z" name="testCreate" data-provider="data" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passangerPlane, 8400, 850, 2800, BOEING, 737-500, 240]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+        <test-method signature="testCreateTwo(java.lang.String, boolean)[pri:0, instance:by.chybisau.firsttask.factory.FlyingMachinesFactoryTest@5b40ceb]" started-at="2019-05-14T08:28:36Z" name="testCreateTwo" data-provider="dataTwo" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cargoPlaneAN,   5425,   853,   12600,   AN,  124,   120000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateTwo -->
+        <test-method signature="testCreate(by.chybisau.firsttask.entity.FlyingMashine, java.lang.String)[pri:0, instance:by.chybisau.firsttask.factory.FlyingMachinesFactoryTest@5b40ceb]" started-at="2019-05-14T08:28:36Z" name="testCreate" data-provider="data" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cargoPlane, 15400, 800, 15900, AN, 225, 250000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+        <test-method signature="testCreateTwo(java.lang.String, boolean)[pri:0, instance:by.chybisau.firsttask.factory.FlyingMachinesFactoryTest@5b40ceb]" started-at="2019-05-14T08:28:36Z" name="testCreateTwo" data-provider="dataTwo" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[passanger Plane, 4400, 910, 2600, BOEING, 737-300, 277]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateTwo -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.chybisau.firsttask.factory.FlyingMachinesFactoryTest@5b40ceb]" started-at="2019-05-14T08:28:36Z" name="setUp" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreate(by.chybisau.firsttask.entity.FlyingMashine, java.lang.String)[pri:0, instance:by.chybisau.firsttask.factory.FlyingMachinesFactoryTest@5b40ceb]" started-at="2019-05-14T08:28:36Z" name="testCreate" data-provider="data" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cargoPlane,   5425,   853,   12600,   AN,  124,   120000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+        <test-method signature="testCreate(by.chybisau.firsttask.entity.FlyingMashine, java.lang.String)[pri:0, instance:by.chybisau.firsttask.factory.FlyingMachinesFactoryTest@5b40ceb]" started-at="2019-05-14T08:28:36Z" name="testCreate" data-provider="data" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=4400.0 km , cruisingSpeed=910.0 km/h , fuelConsumption=2600.0 l producer=BOEING, model='737-300, , passangerCapacity=277 passangers}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passangerPlane, 4400, 910, 2600, BOEING, 737-300, 277]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:by.chybisau.firsttask.factory.FlyingMachinesFactoryTest@5b40ceb]" started-at="2019-05-14T08:28:36Z" name="tearDown" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- by.chybisau.firsttask.factory.FlyingMachinesFactoryTest -->
+      <class name="by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest@3b956878]" started-at="2019-05-14T08:28:36Z" name="setUp" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCalculateTotalCargoCapacity(java.util.List, double)[pri:0, instance:by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest@3b956878]" started-at="2019-05-14T08:28:36Z" name="testCalculateTotalCargoCapacity" data-provider="totalCargoCapacityFinderData" finished-at="2019-05-14T08:28:36Z" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}, CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l producer=AN, model='127, , cargoCapacity=140000.0 tons}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[510000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateTotalCargoCapacity -->
+        <test-method signature="testGetMinCargoCapacityPlane(java.util.List, by.chybisau.firsttask.entity.CargoPlane)[pri:0, instance:by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest@3b956878]" started-at="2019-05-14T08:28:36Z" name="testGetMinCargoCapacityPlane" data-provider="minCargoCapacityFinderData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l producer=AN, model='127, , cargoCapacity=140000.0 tons}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l producer=AN, model='127, , cargoCapacity=140000.0 tons}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMinCargoCapacityPlane -->
+        <test-method signature="testCalculateTotalCargoCapacity(java.util.List, double)[pri:0, instance:by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest@3b956878]" started-at="2019-05-14T08:28:36Z" name="testCalculateTotalCargoCapacity" data-provider="totalCargoCapacityFinderData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l producer=AN, model='127, , cargoCapacity=140000.0 tons}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[390000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateTotalCargoCapacity -->
+        <test-method signature="testGetMinCargoCapacityPlane(java.util.List, by.chybisau.firsttask.entity.CargoPlane)[pri:0, instance:by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest@3b956878]" started-at="2019-05-14T08:28:36Z" name="testGetMinCargoCapacityPlane" data-provider="minCargoCapacityFinderData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}, CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l producer=AN, model='127, , cargoCapacity=140000.0 tons}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMinCargoCapacityPlane -->
+        <test-method signature="testGetMaxCargoCapacityPlane(java.util.List, by.chybisau.firsttask.entity.CargoPlane)[pri:0, instance:by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest@3b956878]" started-at="2019-05-14T08:28:36Z" name="testGetMaxCargoCapacityPlane" data-provider="maxCargoCapacityFinderData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l producer=AN, model='127, , cargoCapacity=140000.0 tons}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMaxCargoCapacityPlane -->
+        <test-method signature="testGetMaxCargoCapacityPlane(java.util.List, by.chybisau.firsttask.entity.CargoPlane)[pri:0, instance:by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest@3b956878]" started-at="2019-05-14T08:28:36Z" name="testGetMaxCargoCapacityPlane" data-provider="maxCargoCapacityFinderData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}, CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l producer=AN, model='127, , cargoCapacity=140000.0 tons}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMaxCargoCapacityPlane -->
+      </class> <!-- by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest -->
+      <class name="by.chybisau.firsttask.logic.sorter.PassangerCapacityComparatorTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.chybisau.firsttask.logic.sorter.PassangerCapacityComparatorTest@64dafeed]" started-at="2019-05-14T08:28:36Z" name="setUp" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:by.chybisau.firsttask.logic.sorter.PassangerCapacityComparatorTest@64dafeed]" started-at="2019-05-14T08:28:36Z" name="tearDown" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:by.chybisau.firsttask.logic.sorter.PassangerCapacityComparatorTest@64dafeed]" started-at="2019-05-14T08:28:36Z" name="tearDown" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:by.chybisau.firsttask.logic.sorter.PassangerCapacityComparatorTest@64dafeed]" started-at="2019-05-14T08:28:36Z" name="tearDown" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testCompare(by.chybisau.firsttask.entity.PassangerPlane, by.chybisau.firsttask.entity.PassangerPlane, double)[pri:0, instance:by.chybisau.firsttask.logic.sorter.PassangerCapacityComparatorTest@64dafeed]" started-at="2019-05-14T08:28:36Z" name="testCompare" data-provider="compareData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=4400.0 km , cruisingSpeed=910.0 km/h , fuelConsumption=2600.0 l producer=BOEING, model='737500, , passangerCapacity=277 passangers}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[37]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompare -->
+        <test-method signature="testCompare(by.chybisau.firsttask.entity.PassangerPlane, by.chybisau.firsttask.entity.PassangerPlane, double)[pri:0, instance:by.chybisau.firsttask.logic.sorter.PassangerCapacityComparatorTest@64dafeed]" started-at="2019-05-14T08:28:36Z" name="testCompare" data-provider="compareData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=4400.0 km , cruisingSpeed=910.0 km/h , fuelConsumption=2600.0 l producer=BOEING, model='737500, , passangerCapacity=277 passangers}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-37]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompare -->
+        <test-method signature="testSortPassangerCapacityOfPlanes()[pri:0, instance:by.chybisau.firsttask.logic.sorter.PassangerCapacityComparatorTest@64dafeed]" started-at="2019-05-14T08:28:36Z" name="testSortPassangerCapacityOfPlanes" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortPassangerCapacityOfPlanes -->
+      </class> <!-- by.chybisau.firsttask.logic.sorter.PassangerCapacityComparatorTest -->
+      <class name="by.chybisau.firsttask.logic.filter.PlaneProducerFilterTest">
+        <test-method signature="testTest(by.chybisau.firsttask.entity.FlyingMashine, by.chybisau.firsttask.entity.PlaneProducer, boolean)[pri:0, instance:by.chybisau.firsttask.logic.filter.PlaneProducerFilterTest@1e63ec0b]" started-at="2019-05-14T08:28:36Z" name="testTest" data-provider="planeProducerFilterData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BOEING]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTest -->
+        <test-method signature="testTest(by.chybisau.firsttask.entity.FlyingMashine, by.chybisau.firsttask.entity.PlaneProducer, boolean)[pri:0, instance:by.chybisau.firsttask.logic.filter.PlaneProducerFilterTest@1e63ec0b]" started-at="2019-05-14T08:28:36Z" name="testTest" data-provider="planeProducerFilterData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2700.0 l producer=AIRBUS, model='A320neo, , passangerCapacity=330 passangers}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BOEING]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTest -->
+        <test-method signature="testTest(by.chybisau.firsttask.entity.FlyingMashine, by.chybisau.firsttask.entity.PlaneProducer, boolean)[pri:0, instance:by.chybisau.firsttask.logic.filter.PlaneProducerFilterTest@1e63ec0b]" started-at="2019-05-14T08:28:36Z" name="testTest" data-provider="planeProducerFilterData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AIRBUS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTest -->
+      </class> <!-- by.chybisau.firsttask.logic.filter.PlaneProducerFilterTest -->
+      <class name="by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest">
+        <test-method signature="testCalculateTotalPassangerCapacity(java.util.List, double)[pri:0, instance:by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest@36546a22]" started-at="2019-05-14T08:28:36Z" name="testCalculateTotalPassangerCapacity" data-provider="totalPassangerCapacityFinderData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l producer=BOEING, model='737-900, , passangerCapacity=250 passangers}, PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l producer=AIRBUS, model='A320neoNew, , passangerCapacity=330 passangers}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[580]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateTotalPassangerCapacity -->
+        <test-method signature="testGetMinPassangerCapacityPlane(java.util.List, by.chybisau.firsttask.entity.PassangerPlane)[pri:0, instance:by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest@36546a22]" started-at="2019-05-14T08:28:36Z" name="testGetMinPassangerCapacityPlane" data-provider="minPassangerCapacityFinderData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l producer=BOEING, model='737-900, , passangerCapacity=250 passangers}, PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l producer=AIRBUS, model='A320neoNew, , passangerCapacity=330 passangers}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMinPassangerCapacityPlane -->
+        <test-method signature="testCalculateTotalPassangerCapacity(java.util.List, double)[pri:0, instance:by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest@36546a22]" started-at="2019-05-14T08:28:36Z" name="testCalculateTotalPassangerCapacity" data-provider="totalPassangerCapacityFinderData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l producer=BOEING, model='737-900, , passangerCapacity=250 passangers}, PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l producer=AIRBUS, model='A320neoNew, , passangerCapacity=330 passangers}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[820]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateTotalPassangerCapacity -->
+        <test-method signature="testGetMinPassangerCapacityPlane(java.util.List, by.chybisau.firsttask.entity.PassangerPlane)[pri:0, instance:by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest@36546a22]" started-at="2019-05-14T08:28:36Z" name="testGetMinPassangerCapacityPlane" data-provider="minPassangerCapacityFinderData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l producer=BOEING, model='737-900, , passangerCapacity=250 passangers}, PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l producer=AIRBUS, model='A320neoNew, , passangerCapacity=330 passangers}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l producer=BOEING, model='737-900, , passangerCapacity=250 passangers}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMinPassangerCapacityPlane -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest@36546a22]" started-at="2019-05-14T08:28:36Z" name="setUp" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetMaxPassangerCapacityPlane(java.util.List, by.chybisau.firsttask.entity.PassangerPlane)[pri:0, instance:by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest@36546a22]" started-at="2019-05-14T08:28:36Z" name="testGetMaxPassangerCapacityPlane" data-provider="maxPassangerCapacityFinderData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l producer=BOEING, model='737-900, , passangerCapacity=250 passangers}, PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l producer=AIRBUS, model='A320neoNew, , passangerCapacity=330 passangers}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l producer=AIRBUS, model='A320neoNew, , passangerCapacity=330 passangers}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMaxPassangerCapacityPlane -->
+        <test-method signature="testGetMaxPassangerCapacityPlane(java.util.List, by.chybisau.firsttask.entity.PassangerPlane)[pri:0, instance:by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest@36546a22]" started-at="2019-05-14T08:28:36Z" name="testGetMaxPassangerCapacityPlane" data-provider="maxPassangerCapacityFinderData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l producer=BOEING, model='737-900, , passangerCapacity=250 passangers}, PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l producer=AIRBUS, model='A320neoNew, , passangerCapacity=330 passangers}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l producer=AIRBUS, model='A320neoNew, , passangerCapacity=330 passangers}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMaxPassangerCapacityPlane -->
+      </class> <!-- by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest -->
+      <class name="by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest">
+        <test-method signature="testCompare(by.chybisau.firsttask.entity.FlyingMashine, by.chybisau.firsttask.entity.FlyingMashine, double)[pri:0, instance:by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest@285c08c8]" started-at="2019-05-14T08:28:36Z" name="testCompare" data-provider="compareData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-130000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompare -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest@285c08c8]" started-at="2019-05-14T08:28:36Z" name="tearDown" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest@285c08c8]" started-at="2019-05-14T08:28:36Z" name="tearDown" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest@285c08c8]" started-at="2019-05-14T08:28:36Z" name="tearDown" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest@285c08c8]" started-at="2019-05-14T08:28:36Z" name="setUp" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testThenComparing()[pri:0, instance:by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest@285c08c8]" started-at="2019-05-14T08:28:36Z" name="testThenComparing" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThenComparing -->
+        <test-method signature="testGetAscendingOrderOfCargoCapacity()[pri:0, instance:by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest@285c08c8]" started-at="2019-05-14T08:28:36Z" name="testGetAscendingOrderOfCargoCapacity" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAscendingOrderOfCargoCapacity -->
+        <test-method signature="testCompare(by.chybisau.firsttask.entity.FlyingMashine, by.chybisau.firsttask.entity.FlyingMashine, double)[pri:0, instance:by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest@285c08c8]" started-at="2019-05-14T08:28:36Z" name="testCompare" data-provider="compareData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[130000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompare -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest@285c08c8]" started-at="2019-05-14T08:28:36Z" name="tearDown" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest -->
+      <class name="by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest@295eaa7c]" started-at="2019-05-14T08:28:36Z" name="tearDown" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testGetDescendingOrderOfCruisingSpeed()[pri:0, instance:by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest@295eaa7c]" started-at="2019-05-14T08:28:36Z" name="testGetDescendingOrderOfCruisingSpeed" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDescendingOrderOfCruisingSpeed -->
+        <test-method signature="testGetAscendingOrderOfCruisingSpeed()[pri:0, instance:by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest@295eaa7c]" started-at="2019-05-14T08:28:36Z" name="testGetAscendingOrderOfCruisingSpeed" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAscendingOrderOfCruisingSpeed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest@295eaa7c]" started-at="2019-05-14T08:28:36Z" name="tearDown" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest@295eaa7c]" started-at="2019-05-14T08:28:36Z" name="tearDown" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest@295eaa7c]" started-at="2019-05-14T08:28:36Z" name="tearDown" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest@295eaa7c]" started-at="2019-05-14T08:28:36Z" name="setUp" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCompare(by.chybisau.firsttask.entity.FlyingMashine, by.chybisau.firsttask.entity.FlyingMashine, double)[pri:0, instance:by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest@295eaa7c]" started-at="2019-05-14T08:28:36Z" name="testCompare" data-provider="compareData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompare -->
+        <test-method signature="testCompare(by.chybisau.firsttask.entity.FlyingMashine, by.chybisau.firsttask.entity.FlyingMashine, double)[pri:0, instance:by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest@295eaa7c]" started-at="2019-05-14T08:28:36Z" name="testCompare" data-provider="compareData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[53]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompare -->
+      </class> <!-- by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest -->
+      <class name="by.chybisau.firsttask.logic.sorter.FlightRangeComparatorTest">
+        <test-method signature="testCompare(by.chybisau.firsttask.entity.FlyingMashine, by.chybisau.firsttask.entity.FlyingMashine, double)[pri:0, instance:by.chybisau.firsttask.logic.sorter.FlightRangeComparatorTest@3918c187]" started-at="2019-05-14T08:28:36Z" name="testCompare" data-provider="compareData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-7000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompare -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.chybisau.firsttask.logic.sorter.FlightRangeComparatorTest@3918c187]" started-at="2019-05-14T08:28:36Z" name="setUp" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCompare(by.chybisau.firsttask.entity.FlyingMashine, by.chybisau.firsttask.entity.FlyingMashine, double)[pri:0, instance:by.chybisau.firsttask.logic.sorter.FlightRangeComparatorTest@3918c187]" started-at="2019-05-14T08:28:36Z" name="testCompare" data-provider="compareData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-9975]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompare -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:by.chybisau.firsttask.logic.sorter.FlightRangeComparatorTest@3918c187]" started-at="2019-05-14T08:28:36Z" name="tearDown" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testSortFlightRange()[pri:0, instance:by.chybisau.firsttask.logic.sorter.FlightRangeComparatorTest@3918c187]" started-at="2019-05-14T08:28:36Z" name="testSortFlightRange" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortFlightRange -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:by.chybisau.firsttask.logic.sorter.FlightRangeComparatorTest@3918c187]" started-at="2019-05-14T08:28:36Z" name="tearDown" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:by.chybisau.firsttask.logic.sorter.FlightRangeComparatorTest@3918c187]" started-at="2019-05-14T08:28:36Z" name="tearDown" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- by.chybisau.firsttask.logic.sorter.FlightRangeComparatorTest -->
+      <class name="by.chybisau.firsttask.creator.CargoPlaneCreatorTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.chybisau.firsttask.creator.CargoPlaneCreatorTest@6c6c5427]" started-at="2019-05-14T08:28:35Z" name="setUp" finished-at="2019-05-14T08:28:35Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreate(by.chybisau.firsttask.entity.FlyingMashine, java.lang.String, boolean)[pri:0, instance:by.chybisau.firsttask.creator.CargoPlaneCreatorTest@6c6c5427]" started-at="2019-05-14T08:28:36Z" name="testCreate" data-provider="data" finished-at="2019-05-14T08:28:36Z" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cargoPlane,   5425,   853,   12600,   AN,  124,   120000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+        <test-method signature="testCreate(by.chybisau.firsttask.entity.FlyingMashine, java.lang.String, boolean)[pri:0, instance:by.chybisau.firsttask.creator.CargoPlaneCreatorTest@6c6c5427]" started-at="2019-05-14T08:28:36Z" name="testCreate" data-provider="data" finished-at="2019-05-14T08:28:36Z" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cargoPlane, 15400, 800, 15900, AN, 225, 250000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:by.chybisau.firsttask.creator.CargoPlaneCreatorTest@6c6c5427]" started-at="2019-05-14T08:28:36Z" name="tearDown" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testCreate(by.chybisau.firsttask.entity.FlyingMashine, java.lang.String, boolean)[pri:0, instance:by.chybisau.firsttask.creator.CargoPlaneCreatorTest@6c6c5427]" started-at="2019-05-14T08:28:36Z" name="testCreate" data-provider="data" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=4400.0 km , cruisingSpeed=910.0 km/h , fuelConsumption=2600.0 l producer=BOEING, model='737500, , passangerCapacity=277 passangers}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passangerPlane, 4400, 910, 2600, BOEING, 737, 300, 277]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+      </class> <!-- by.chybisau.firsttask.creator.CargoPlaneCreatorTest -->
+      <class name="by.chybisau.firsttask.creator.PassangerPlaneCreatorTest">
+        <test-method signature="testCreate(by.chybisau.firsttask.entity.FlyingMashine, java.lang.String, boolean)[pri:0, instance:by.chybisau.firsttask.creator.PassangerPlaneCreatorTest@618c5d94]" started-at="2019-05-14T08:28:36Z" name="testCreate" data-provider="data" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passangerPlane, 8400, 850, 2800, BOEING, 737-500, 240]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+        <test-method signature="testCreateTwo(java.lang.String, boolean)[pri:0, instance:by.chybisau.firsttask.creator.PassangerPlaneCreatorTest@618c5d94]" started-at="2019-05-14T08:28:36Z" name="testCreateTwo" data-provider="dataTwo" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[passangerPlane, 8400km, 850, 2800, BOEING, 737-500, 240]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateTwo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:by.chybisau.firsttask.creator.PassangerPlaneCreatorTest@618c5d94]" started-at="2019-05-14T08:28:36Z" name="tearDown" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testCreate(by.chybisau.firsttask.entity.FlyingMashine, java.lang.String, boolean)[pri:0, instance:by.chybisau.firsttask.creator.PassangerPlaneCreatorTest@618c5d94]" started-at="2019-05-14T08:28:36Z" name="testCreate" data-provider="data" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=0.0 km , cruisingSpeed=0.0 km/h , fuelConsumption=0.0 l producer=null, model='null, , passangerCapacity=0 passangers}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+        <test-method signature="testCreate(by.chybisau.firsttask.entity.FlyingMashine, java.lang.String, boolean)[pri:0, instance:by.chybisau.firsttask.creator.PassangerPlaneCreatorTest@618c5d94]" started-at="2019-05-14T08:28:36Z" name="testCreate" data-provider="data" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passangerPlane, 8400, 850, 2800, BOEING, 737-500, 240]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+        <test-method signature="testCreateTwo(java.lang.String, boolean)[pri:0, instance:by.chybisau.firsttask.creator.PassangerPlaneCreatorTest@618c5d94]" started-at="2019-05-14T08:28:36Z" name="testCreateTwo" data-provider="dataTwo" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[passangerPlane, 4400, 910, 2600, BOEING747, 737500, 277]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateTwo -->
+        <test-method signature="testCreate(by.chybisau.firsttask.entity.FlyingMashine, java.lang.String, boolean)[pri:0, instance:by.chybisau.firsttask.creator.PassangerPlaneCreatorTest@618c5d94]" started-at="2019-05-14T08:28:36Z" name="testCreate" data-provider="data" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passangerPlane, 4400, 910, 2600, BOEING, 737500, 277]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.chybisau.firsttask.creator.PassangerPlaneCreatorTest@618c5d94]" started-at="2019-05-14T08:28:36Z" name="setUp" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreate(by.chybisau.firsttask.entity.FlyingMashine, java.lang.String, boolean)[pri:0, instance:by.chybisau.firsttask.creator.PassangerPlaneCreatorTest@618c5d94]" started-at="2019-05-14T08:28:36Z" name="testCreate" data-provider="data" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l producer=AN, model='127, , cargoCapacity=140000.0 tons}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passangerPlane, 4400, 910, 2600, BOEING, 737-300, 277]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+        <test-method signature="testCreateTwo(java.lang.String, boolean)[pri:0, instance:by.chybisau.firsttask.creator.PassangerPlaneCreatorTest@618c5d94]" started-at="2019-05-14T08:28:36Z" name="testCreateTwo" data-provider="dataTwo" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[passangerPlane, 4400, 910, 2600, BOEING, 737-300, 277 passangers]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateTwo -->
+      </class> <!-- by.chybisau.firsttask.creator.PassangerPlaneCreatorTest -->
+      <class name="by.chybisau.firsttask.logic.filter.FuelConsumptionFilterTest">
+        <test-method signature="testTest(by.chybisau.firsttask.entity.FlyingMashine, double, double, boolean)[pri:0, instance:by.chybisau.firsttask.logic.filter.FuelConsumptionFilterTest@1d8062d2]" started-at="2019-05-14T08:28:36Z" name="testTest" data-provider="dataForTests" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l producer=AIRBUS, model='A320neoNew, , passangerCapacity=330 passangers}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2400]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2600]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTest -->
+        <test-method signature="testTest(by.chybisau.firsttask.entity.FlyingMashine, double, double, boolean)[pri:0, instance:by.chybisau.firsttask.logic.filter.FuelConsumptionFilterTest@1d8062d2]" started-at="2019-05-14T08:28:36Z" name="testTest" data-provider="dataForTests" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2500]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2650]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTest -->
+        <test-method signature="testTest(by.chybisau.firsttask.entity.FlyingMashine, double, double, boolean)[pri:0, instance:by.chybisau.firsttask.logic.filter.FuelConsumptionFilterTest@1d8062d2]" started-at="2019-05-14T08:28:36Z" name="testTest" data-provider="dataForTests" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l producer=BOEING, model='737-900, , passangerCapacity=240 passangers}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2750]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2900]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTest -->
+      </class> <!-- by.chybisau.firsttask.logic.filter.FuelConsumptionFilterTest -->
+      <class name="by.chybisau.firsttask.logic.sorter.FuelConsumptionComparatorTest">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:by.chybisau.firsttask.logic.sorter.FuelConsumptionComparatorTest@2c88b9fc]" started-at="2019-05-14T08:28:36Z" name="tearDown" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testSortFuelConsumptionOfPlanes()[pri:0, instance:by.chybisau.firsttask.logic.sorter.FuelConsumptionComparatorTest@2c88b9fc]" started-at="2019-05-14T08:28:36Z" name="testSortFuelConsumptionOfPlanes" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortFuelConsumptionOfPlanes -->
+        <test-method signature="testCompare(by.chybisau.firsttask.entity.FlyingMashine, by.chybisau.firsttask.entity.FlyingMashine, double)[pri:0, instance:by.chybisau.firsttask.logic.sorter.FuelConsumptionComparatorTest@2c88b9fc]" started-at="2019-05-14T08:28:36Z" name="testCompare" data-provider="compareData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-3300]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompare -->
+        <test-method signature="testCompare(by.chybisau.firsttask.entity.FlyingMashine, by.chybisau.firsttask.entity.FlyingMashine, double)[pri:0, instance:by.chybisau.firsttask.logic.sorter.FuelConsumptionComparatorTest@2c88b9fc]" started-at="2019-05-14T08:28:36Z" name="testCompare" data-provider="compareData" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-13100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompare -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:by.chybisau.firsttask.logic.sorter.FuelConsumptionComparatorTest@2c88b9fc]" started-at="2019-05-14T08:28:36Z" name="tearDown" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.chybisau.firsttask.logic.sorter.FuelConsumptionComparatorTest@2c88b9fc]" started-at="2019-05-14T08:28:36Z" name="setUp" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:by.chybisau.firsttask.logic.sorter.FuelConsumptionComparatorTest@2c88b9fc]" started-at="2019-05-14T08:28:36Z" name="tearDown" finished-at="2019-05-14T08:28:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- by.chybisau.firsttask.logic.sorter.FuelConsumptionComparatorTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

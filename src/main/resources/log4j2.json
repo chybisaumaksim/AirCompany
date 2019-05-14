@@ -1,0 +1,41 @@
+{
+  "configuration": {
+    "name": "Default",
+    "appenders": {
+      "Console": {
+        "name":"STDOUT",
+        "target":"SYSTEM_OUT",
+        "PatternLayout": {
+          "pattern":"%d{HH:mm:ss} %-5level %logger{1} - %msg%n"
+        }
+      },
+      "RollingFile": {
+        "name":"File",
+        "fileName":"logs/Aircompany.log",
+        "filePattern":"%d{dd-MM-yyyy HH:mm}-%i.log",
+        "PatternLayout": {
+          "pattern":"%d{HH:mm:ss} %-5level %logger{4} - %msg%n"
+        },
+        "Policies": {
+          "SizeBasedTriggeringPolicy": {
+            "size":"20 KB"
+          }
+        },
+        "DefaultRolloverStrategy": {
+          "max":"10"
+        }
+      }
+    },
+    "loggers": {
+      "root": {
+        "level":"debug",
+        "appender-ref": [{
+          "ref":"STDOUT"
+        },
+          {
+            "ref":"File"
+          }]
+      }
+    }
+  }
+}

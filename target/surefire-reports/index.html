@@ -1,0 +1,1805 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Command_line_suite" class="navigator-link">
+              <span class="suite-name border-passed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Command_line_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Command_line_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Command_line_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Command_line_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Command_line_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Command_line_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Command_line_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">63 methods,   63 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest" class="method navigator-link" hash-for-method="testCalculateTotalCargoCapacity([CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l prod...)">testCalculateTotalCargoCapacity([CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l prod...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest" class="method navigator-link" hash-for-method="testCalculateTotalCargoCapacity([CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produ...)">testCalculateTotalCargoCapacity([CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest" class="method navigator-link" hash-for-method="testCalculateTotalPassangerCapacity([PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l pr...)">testCalculateTotalPassangerCapacity([PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l pr...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest" class="method navigator-link" hash-for-method="testCalculateTotalPassangerCapacity([PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pr...)">testCalculateTotalPassangerCapacity([PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pr...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest" class="method navigator-link" hash-for-method="testCompare(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...)">testCompare(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.sorter.FlightRangeComparatorTest" class="method navigator-link" hash-for-method="testCompare(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">testCompare(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.sorter.FlightRangeComparatorTest" class="method navigator-link" hash-for-method="testCompare(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...)">testCompare(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.sorter.FuelConsumptionComparatorTest" class="method navigator-link" hash-for-method="testCompare(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...)">testCompare(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.sorter.FuelConsumptionComparatorTest" class="method navigator-link" hash-for-method="testCompare(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">testCompare(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest" class="method navigator-link" hash-for-method="testCompare(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">testCompare(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.sorter.PassangerCapacityComparatorTest" class="method navigator-link" hash-for-method="testCompare(PassangerPlane{id=0, flightRange=4400.0 km , cruisingSpeed=910.0 km/h , fuelConsumption=2600.0 l pro...)">testCompare(PassangerPlane{id=0, flightRange=4400.0 km , cruisingSpeed=910.0 km/h , fuelConsumption=2600.0 l pro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.sorter.PassangerCapacityComparatorTest" class="method navigator-link" hash-for-method="testCompare(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">testCompare(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest" class="method navigator-link" hash-for-method="testCompare(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...)">testCompare(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest" class="method navigator-link" hash-for-method="testCompare(CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l produ...)">testCompare(CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l produ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.creator.PassangerPlaneCreatorTest" class="method navigator-link" hash-for-method="testCreate(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">testCreate(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.creator.CargoPlaneCreatorTest" class="method navigator-link" hash-for-method="testCreate(CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l produ...)">testCreate(CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l produ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.factory.FlyingMachinesFactoryTest" class="method navigator-link" hash-for-method="testCreate(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">testCreate(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.creator.PassangerPlaneCreatorTest" class="method navigator-link" hash-for-method="testCreate(PassangerPlane{id=0, flightRange=0.0 km , cruisingSpeed=0.0 km/h , fuelConsumption=0.0 l producer=nu...)">testCreate(PassangerPlane{id=0, flightRange=0.0 km , cruisingSpeed=0.0 km/h , fuelConsumption=0.0 l producer=nu...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.creator.PassangerPlaneCreatorTest" class="method navigator-link" hash-for-method="testCreate(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">testCreate(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.factory.FlyingMachinesFactoryTest" class="method navigator-link" hash-for-method="testCreate(CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l produ...)">testCreate(CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l produ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.factory.FlyingMachinesFactoryTest" class="method navigator-link" hash-for-method="testCreate(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...)">testCreate(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.creator.PassangerPlaneCreatorTest" class="method navigator-link" hash-for-method="testCreate(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">testCreate(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.factory.FlyingMachinesFactoryTest" class="method navigator-link" hash-for-method="testCreate(PassangerPlane{id=0, flightRange=4400.0 km , cruisingSpeed=910.0 km/h , fuelConsumption=2600.0 l pro...)">testCreate(PassangerPlane{id=0, flightRange=4400.0 km , cruisingSpeed=910.0 km/h , fuelConsumption=2600.0 l pro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.creator.CargoPlaneCreatorTest" class="method navigator-link" hash-for-method="testCreate(PassangerPlane{id=0, flightRange=4400.0 km , cruisingSpeed=910.0 km/h , fuelConsumption=2600.0 l pro...)">testCreate(PassangerPlane{id=0, flightRange=4400.0 km , cruisingSpeed=910.0 km/h , fuelConsumption=2600.0 l pro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.creator.PassangerPlaneCreatorTest" class="method navigator-link" hash-for-method="testCreate(CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l produce...)">testCreate(CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l produce...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.creator.CargoPlaneCreatorTest" class="method navigator-link" hash-for-method="testCreate(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...)">testCreate(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.factory.FlyingMachinesFactoryTest" class="method navigator-link" hash-for-method="testCreateTwo(passangerPlane1, 8400, 850, 2800, BOEING, 737-500, 240, false)">testCreateTwo(passangerPlane1, 8400, 850, 2800, BOEING, 737-500, 240, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.creator.PassangerPlaneCreatorTest" class="method navigator-link" hash-for-method="testCreateTwo(passangerPlane, 8400km, 850, 2800, BOEING, 737-500, 240, false)">testCreateTwo(passangerPlane, 8400km, 850, 2800, BOEING, 737-500, 240, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.factory.FlyingMachinesFactoryTest" class="method navigator-link" hash-for-method="testCreateTwo(cargoPlaneAN,   5425,   853,   12600,   AN,  124,   120000, false)">testCreateTwo(cargoPlaneAN,   5425,   853,   12600,   AN,  124,   120000, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.factory.FlyingMachinesFactoryTest" class="method navigator-link" hash-for-method="testCreateTwo(passanger Plane, 4400, 910, 2600, BOEING, 737-300, 277, false)">testCreateTwo(passanger Plane, 4400, 910, 2600, BOEING, 737-300, 277, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.creator.PassangerPlaneCreatorTest" class="method navigator-link" hash-for-method="testCreateTwo(passangerPlane, 4400, 910, 2600, BOEING747, 737500, 277, false)">testCreateTwo(passangerPlane, 4400, 910, 2600, BOEING747, 737500, 277, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.creator.PassangerPlaneCreatorTest" class="method navigator-link" hash-for-method="testCreateTwo(passangerPlane, 4400, 910, 2600, BOEING, 737-300, 277 passangers, false)">testCreateTwo(passangerPlane, 4400, 910, 2600, BOEING, 737-300, 277 passangers, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest" class="method navigator-link" hash-for-method="testGetAscendingOrderOfCargoCapacity">testGetAscendingOrderOfCargoCapacity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest" class="method navigator-link" hash-for-method="testGetAscendingOrderOfCruisingSpeed">testGetAscendingOrderOfCruisingSpeed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest" class="method navigator-link" hash-for-method="testGetDescendingOrderOfCruisingSpeed">testGetDescendingOrderOfCruisingSpeed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest" class="method navigator-link" hash-for-method="testGetMaxCargoCapacityPlane([CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l prod...)">testGetMaxCargoCapacityPlane([CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l prod...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest" class="method navigator-link" hash-for-method="testGetMaxCargoCapacityPlane([CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produ...)">testGetMaxCargoCapacityPlane([CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest" class="method navigator-link" hash-for-method="testGetMaxPassangerCapacityPlane([PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pr...)">testGetMaxPassangerCapacityPlane([PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pr...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest" class="method navigator-link" hash-for-method="testGetMaxPassangerCapacityPlane([PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l pr...)">testGetMaxPassangerCapacityPlane([PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l pr...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest" class="method navigator-link" hash-for-method="testGetMinCargoCapacityPlane([CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l prod...)">testGetMinCargoCapacityPlane([CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l prod...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest" class="method navigator-link" hash-for-method="testGetMinCargoCapacityPlane([CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produ...)">testGetMinCargoCapacityPlane([CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest" class="method navigator-link" hash-for-method="testGetMinPassangerCapacityPlane([PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pr...)">testGetMinPassangerCapacityPlane([PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pr...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest" class="method navigator-link" hash-for-method="testGetMinPassangerCapacityPlane([PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l pr...)">testGetMinPassangerCapacityPlane([PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l pr...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.sorter.FlightRangeComparatorTest" class="method navigator-link" hash-for-method="testSortFlightRange">testSortFlightRange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.sorter.FuelConsumptionComparatorTest" class="method navigator-link" hash-for-method="testSortFuelConsumptionOfPlanes">testSortFuelConsumptionOfPlanes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.sorter.PassangerCapacityComparatorTest" class="method navigator-link" hash-for-method="testSortPassangerCapacityOfPlanes">testSortPassangerCapacityOfPlanes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.filter.PlaneProducerFilterTest" class="method navigator-link" hash-for-method="testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest" class="method navigator-link" hash-for-method="testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.filter.PlaneProducerFilterTest" class="method navigator-link" hash-for-method="testTest(PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2700.0 l pro...)">testTest(PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2700.0 l pro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.filter.FuelConsumptionFilterTest" class="method navigator-link" hash-for-method="testTest(PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l pro...)">testTest(PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l pro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.filter.FuelConsumptionFilterTest" class="method navigator-link" hash-for-method="testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.filter.FuelConsumptionFilterTest" class="method navigator-link" hash-for-method="testTest(PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l pro...)">testTest(PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l pro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.filter.PlaneProducerFilterTest" class="method navigator-link" hash-for-method="testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest" class="method navigator-link" hash-for-method="testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest" class="method navigator-link" hash-for-method="testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest" class="method navigator-link" hash-for-method="testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest" class="method navigator-link" hash-for-method="testThenComparing">testThenComparing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.validator.StringValidatorTest" class="method navigator-link" hash-for-method="testValidate(passangerPlane, 5648, 852, 2700, BOEING, 737-700, 126, true)">testValidate(passangerPlane, 5648, 852, 2700, BOEING, 737-700, 126, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.validator.StringValidatorTest" class="method navigator-link" hash-for-method="testValidate(passangerPlane, 852, 2700, BOEING, 737-700, 126, false)">testValidate(passangerPlane, 852, 2700, BOEING, 737-700, 126, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.validator.StringValidatorTest" class="method navigator-link" hash-for-method="testValidate(CargoPlanE,   5425,   853,   12600,   AN,  124,   120000, true)">testValidate(CargoPlanE,   5425,   853,   12600,   AN,  124,   120000, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.validator.StringValidatorTest" class="method navigator-link" hash-for-method="testValidate(passangerPlane, 8400, 850, 2800, BOEING, 737-600, 250, true)">testValidate(passangerPlane, 8400, 850, 2800, BOEING, 737-600, 250, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.validator.StringValidatorTest" class="method navigator-link" hash-for-method="testValidate(paSsAnGerPlaNe,  5648,  852,  2700,  Boeing,  737-700,   126, true)">testValidate(paSsAnGerPlaNe,  5648,  852,  2700,  Boeing,  737-700,   126, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="by.chybisau.firsttask.validator.StringValidatorTest" class="method navigator-link" hash-for-method="testValidate(PaSsAnGerPlAnE, 8400, 852, 2700, BoeiNG, 456-96f, 126, true)">testValidate(PaSsAnGerPlAnE, 8400, 852, 2700, BoeiNG, 456-96f, 126, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.chybisau.firsttask.creator.CargoPlaneCreatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate(CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l produ...)">
+                  </a> <!-- testCreate(CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l produ...) -->
+                  <span class="method-name">testCreate</span>
+                  <span class="parameters">(CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, cargoPlane, 15400, 800, 15900, AN, 225, 250000, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate(PassangerPlane{id=0, flightRange=4400.0 km , cruisingSpeed=910.0 km/h , fuelConsumption=2600.0 l pro...)">
+                  </a> <!-- testCreate(PassangerPlane{id=0, flightRange=4400.0 km , cruisingSpeed=910.0 km/h , fuelConsumption=2600.0 l pro...) -->
+                  <span class="method-name">testCreate</span>
+                  <span class="parameters">(PassangerPlane{id=0, flightRange=4400.0 km , cruisingSpeed=910.0 km/h , fuelConsumption=2600.0 l producer=BOEING, model='737500, , passangerCapacity=277 passangers}, passangerPlane, 4400, 910, 2600, BOEING, 737, 300, 277, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...)">
+                  </a> <!-- testCreate(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...) -->
+                  <span class="method-name">testCreate</span>
+                  <span class="parameters">(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}, cargoPlane,   5425,   853,   12600,   AN,  124,   120000, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCalculateTotalCargoCapacity([CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l prod...)">
+                  </a> <!-- testCalculateTotalCargoCapacity([CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l prod...) -->
+                  <span class="method-name">testCalculateTotalCargoCapacity</span>
+                  <span class="parameters">([CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l producer=AN, model='127, , cargoCapacity=140000.0 tons}], 390000)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCalculateTotalCargoCapacity([CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produ...)">
+                  </a> <!-- testCalculateTotalCargoCapacity([CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produ...) -->
+                  <span class="method-name">testCalculateTotalCargoCapacity</span>
+                  <span class="parameters">([CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}, CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l producer=AN, model='127, , cargoCapacity=140000.0 tons}], 510000)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetMaxCargoCapacityPlane([CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l prod...)">
+                  </a> <!-- testGetMaxCargoCapacityPlane([CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l prod...) -->
+                  <span class="method-name">testGetMaxCargoCapacityPlane</span>
+                  <span class="parameters">([CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l producer=AN, model='127, , cargoCapacity=140000.0 tons}], CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetMaxCargoCapacityPlane([CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produ...)">
+                  </a> <!-- testGetMaxCargoCapacityPlane([CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produ...) -->
+                  <span class="method-name">testGetMaxCargoCapacityPlane</span>
+                  <span class="parameters">([CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}, CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l producer=AN, model='127, , cargoCapacity=140000.0 tons}], CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetMinCargoCapacityPlane([CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l prod...)">
+                  </a> <!-- testGetMinCargoCapacityPlane([CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l prod...) -->
+                  <span class="method-name">testGetMinCargoCapacityPlane</span>
+                  <span class="parameters">([CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l producer=AN, model='127, , cargoCapacity=140000.0 tons}], CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l producer=AN, model='127, , cargoCapacity=140000.0 tons})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetMinCargoCapacityPlane([CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produ...)">
+                  </a> <!-- testGetMinCargoCapacityPlane([CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produ...) -->
+                  <span class="method-name">testGetMinCargoCapacityPlane</span>
+                  <span class="parameters">([CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}, CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l producer=AN, model='127, , cargoCapacity=140000.0 tons}], CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.chybisau.firsttask.logic.sorter.PassangerCapacityComparatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCompare(PassangerPlane{id=0, flightRange=4400.0 km , cruisingSpeed=910.0 km/h , fuelConsumption=2600.0 l pro...)">
+                  </a> <!-- testCompare(PassangerPlane{id=0, flightRange=4400.0 km , cruisingSpeed=910.0 km/h , fuelConsumption=2600.0 l pro...) -->
+                  <span class="method-name">testCompare</span>
+                  <span class="parameters">(PassangerPlane{id=0, flightRange=4400.0 km , cruisingSpeed=910.0 km/h , fuelConsumption=2600.0 l producer=BOEING, model='737500, , passangerCapacity=277 passangers}, PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, 37)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCompare(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">
+                  </a> <!-- testCompare(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...) -->
+                  <span class="method-name">testCompare</span>
+                  <span class="parameters">(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, PassangerPlane{id=0, flightRange=4400.0 km , cruisingSpeed=910.0 km/h , fuelConsumption=2600.0 l producer=BOEING, model='737500, , passangerCapacity=277 passangers}, -37)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortPassangerCapacityOfPlanes">
+                  </a> <!-- testSortPassangerCapacityOfPlanes -->
+                  <span class="method-name">testSortPassangerCapacityOfPlanes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">
+                  </a> <!-- testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...) -->
+                  <span class="method-name">testTest</span>
+                  <span class="parameters">(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737 - 500, , passangerCapacity=240 passangers}, 800, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">
+                  </a> <!-- testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...) -->
+                  <span class="method-name">testTest</span>
+                  <span class="parameters">(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737 - 500, , passangerCapacity=240 passangers}, 910, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">
+                  </a> <!-- testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...) -->
+                  <span class="method-name">testTest</span>
+                  <span class="parameters">(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737 - 500, , passangerCapacity=240 passangers}, 850, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">
+                  </a> <!-- testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...) -->
+                  <span class="method-name">testTest</span>
+                  <span class="parameters">(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737 - 500, , passangerCapacity=240 passangers}, 852, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCompare(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">
+                  </a> <!-- testCompare(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...) -->
+                  <span class="method-name">testCompare</span>
+                  <span class="parameters">(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, 50)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCompare(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...)">
+                  </a> <!-- testCompare(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...) -->
+                  <span class="method-name">testCompare</span>
+                  <span class="parameters">(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}, CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, 53)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAscendingOrderOfCruisingSpeed">
+                  </a> <!-- testGetAscendingOrderOfCruisingSpeed -->
+                  <span class="method-name">testGetAscendingOrderOfCruisingSpeed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetDescendingOrderOfCruisingSpeed">
+                  </a> <!-- testGetDescendingOrderOfCruisingSpeed -->
+                  <span class="method-name">testGetDescendingOrderOfCruisingSpeed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.chybisau.firsttask.validator.StringValidatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidate(passangerPlane, 5648, 852, 2700, BOEING, 737-700, 126, true)">
+                  </a> <!-- testValidate(passangerPlane, 5648, 852, 2700, BOEING, 737-700, 126, true) -->
+                  <span class="method-name">testValidate</span>
+                  <span class="parameters">(passangerPlane, 5648, 852, 2700, BOEING, 737-700, 126, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidate(passangerPlane, 852, 2700, BOEING, 737-700, 126, false)">
+                  </a> <!-- testValidate(passangerPlane, 852, 2700, BOEING, 737-700, 126, false) -->
+                  <span class="method-name">testValidate</span>
+                  <span class="parameters">(passangerPlane, 852, 2700, BOEING, 737-700, 126, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidate(CargoPlanE,   5425,   853,   12600,   AN,  124,   120000, true)">
+                  </a> <!-- testValidate(CargoPlanE,   5425,   853,   12600,   AN,  124,   120000, true) -->
+                  <span class="method-name">testValidate</span>
+                  <span class="parameters">(CargoPlanE,   5425,   853,   12600,   AN,  124,   120000, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidate(passangerPlane, 8400, 850, 2800, BOEING, 737-600, 250, true)">
+                  </a> <!-- testValidate(passangerPlane, 8400, 850, 2800, BOEING, 737-600, 250, true) -->
+                  <span class="method-name">testValidate</span>
+                  <span class="parameters">(passangerPlane, 8400, 850, 2800, BOEING, 737-600, 250, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidate(paSsAnGerPlaNe,  5648,  852,  2700,  Boeing,  737-700,   126, true)">
+                  </a> <!-- testValidate(paSsAnGerPlaNe,  5648,  852,  2700,  Boeing,  737-700,   126, true) -->
+                  <span class="method-name">testValidate</span>
+                  <span class="parameters">(paSsAnGerPlaNe,  5648,  852,  2700,  Boeing,  737-700,   126, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidate(PaSsAnGerPlAnE, 8400, 852, 2700, BoeiNG, 456-96f, 126, true)">
+                  </a> <!-- testValidate(PaSsAnGerPlAnE, 8400, 852, 2700, BoeiNG, 456-96f, 126, true) -->
+                  <span class="method-name">testValidate</span>
+                  <span class="parameters">(PaSsAnGerPlAnE, 8400, 852, 2700, BoeiNG, 456-96f, 126, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.chybisau.firsttask.logic.sorter.FlightRangeComparatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCompare(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">
+                  </a> <!-- testCompare(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...) -->
+                  <span class="method-name">testCompare</span>
+                  <span class="parameters">(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, -7000)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCompare(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...)">
+                  </a> <!-- testCompare(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...) -->
+                  <span class="method-name">testCompare</span>
+                  <span class="parameters">(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}, CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, -9975)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortFlightRange">
+                  </a> <!-- testSortFlightRange -->
+                  <span class="method-name">testSortFlightRange</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.chybisau.firsttask.logic.filter.FuelConsumptionFilterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTest(PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l pro...)">
+                  </a> <!-- testTest(PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l pro...) -->
+                  <span class="method-name">testTest</span>
+                  <span class="parameters">(PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l producer=AIRBUS, model='A320neoNew, , passangerCapacity=330 passangers}, 2400, 2600, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">
+                  </a> <!-- testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...) -->
+                  <span class="method-name">testTest</span>
+                  <span class="parameters">(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, 2500, 2650, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTest(PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l pro...)">
+                  </a> <!-- testTest(PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l pro...) -->
+                  <span class="method-name">testTest</span>
+                  <span class="parameters">(PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l producer=BOEING, model='737-900, , passangerCapacity=240 passangers}, 2750, 2900, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCompare(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...)">
+                  </a> <!-- testCompare(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...) -->
+                  <span class="method-name">testCompare</span>
+                  <span class="parameters">(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}, CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, -130000)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCompare(CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l produ...)">
+                  </a> <!-- testCompare(CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l produ...) -->
+                  <span class="method-name">testCompare</span>
+                  <span class="parameters">(CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}, 130000)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAscendingOrderOfCargoCapacity">
+                  </a> <!-- testGetAscendingOrderOfCargoCapacity -->
+                  <span class="method-name">testGetAscendingOrderOfCargoCapacity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testThenComparing">
+                  </a> <!-- testThenComparing -->
+                  <span class="method-name">testThenComparing</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.chybisau.firsttask.factory.FlyingMachinesFactoryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">
+                  </a> <!-- testCreate(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...) -->
+                  <span class="method-name">testCreate</span>
+                  <span class="parameters">(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, passangerPlane, 8400, 850, 2800, BOEING, 737-500, 240)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate(CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l produ...)">
+                  </a> <!-- testCreate(CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l produ...) -->
+                  <span class="method-name">testCreate</span>
+                  <span class="parameters">(CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, cargoPlane, 15400, 800, 15900, AN, 225, 250000)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...)">
+                  </a> <!-- testCreate(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...) -->
+                  <span class="method-name">testCreate</span>
+                  <span class="parameters">(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}, cargoPlane,   5425,   853,   12600,   AN,  124,   120000)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate(PassangerPlane{id=0, flightRange=4400.0 km , cruisingSpeed=910.0 km/h , fuelConsumption=2600.0 l pro...)">
+                  </a> <!-- testCreate(PassangerPlane{id=0, flightRange=4400.0 km , cruisingSpeed=910.0 km/h , fuelConsumption=2600.0 l pro...) -->
+                  <span class="method-name">testCreate</span>
+                  <span class="parameters">(PassangerPlane{id=0, flightRange=4400.0 km , cruisingSpeed=910.0 km/h , fuelConsumption=2600.0 l producer=BOEING, model='737-300, , passangerCapacity=277 passangers}, passangerPlane, 4400, 910, 2600, BOEING, 737-300, 277)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateTwo(passangerPlane1, 8400, 850, 2800, BOEING, 737-500, 240, false)">
+                  </a> <!-- testCreateTwo(passangerPlane1, 8400, 850, 2800, BOEING, 737-500, 240, false) -->
+                  <span class="method-name">testCreateTwo</span>
+                  <span class="parameters">(passangerPlane1, 8400, 850, 2800, BOEING, 737-500, 240, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateTwo(cargoPlaneAN,   5425,   853,   12600,   AN,  124,   120000, false)">
+                  </a> <!-- testCreateTwo(cargoPlaneAN,   5425,   853,   12600,   AN,  124,   120000, false) -->
+                  <span class="method-name">testCreateTwo</span>
+                  <span class="parameters">(cargoPlaneAN,   5425,   853,   12600,   AN,  124,   120000, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateTwo(passanger Plane, 4400, 910, 2600, BOEING, 737-300, 277, false)">
+                  </a> <!-- testCreateTwo(passanger Plane, 4400, 910, 2600, BOEING, 737-300, 277, false) -->
+                  <span class="method-name">testCreateTwo</span>
+                  <span class="parameters">(passanger Plane, 4400, 910, 2600, BOEING, 737-300, 277, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.chybisau.firsttask.logic.sorter.FuelConsumptionComparatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCompare(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...)">
+                  </a> <!-- testCompare(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...) -->
+                  <span class="method-name">testCompare</span>
+                  <span class="parameters">(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}, CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, -3300)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCompare(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">
+                  </a> <!-- testCompare(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...) -->
+                  <span class="method-name">testCompare</span>
+                  <span class="parameters">(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, -13100)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortFuelConsumptionOfPlanes">
+                  </a> <!-- testSortFuelConsumptionOfPlanes -->
+                  <span class="method-name">testSortFuelConsumptionOfPlanes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.chybisau.firsttask.creator.PassangerPlaneCreatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">
+                  </a> <!-- testCreate(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...) -->
+                  <span class="method-name">testCreate</span>
+                  <span class="parameters">(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, passangerPlane, 8400, 850, 2800, BOEING, 737-500, 240, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate(PassangerPlane{id=0, flightRange=0.0 km , cruisingSpeed=0.0 km/h , fuelConsumption=0.0 l producer=nu...)">
+                  </a> <!-- testCreate(PassangerPlane{id=0, flightRange=0.0 km , cruisingSpeed=0.0 km/h , fuelConsumption=0.0 l producer=nu...) -->
+                  <span class="method-name">testCreate</span>
+                  <span class="parameters">(PassangerPlane{id=0, flightRange=0.0 km , cruisingSpeed=0.0 km/h , fuelConsumption=0.0 l producer=null, model='null, , passangerCapacity=0 passangers}, null, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">
+                  </a> <!-- testCreate(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...) -->
+                  <span class="method-name">testCreate</span>
+                  <span class="parameters">(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, passangerPlane, 8400, 850, 2800, BOEING, 737-500, 240, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">
+                  </a> <!-- testCreate(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...) -->
+                  <span class="method-name">testCreate</span>
+                  <span class="parameters">(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, passangerPlane, 4400, 910, 2600, BOEING, 737500, 277, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate(CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l produce...)">
+                  </a> <!-- testCreate(CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l produce...) -->
+                  <span class="method-name">testCreate</span>
+                  <span class="parameters">(CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l producer=AN, model='127, , cargoCapacity=140000.0 tons}, passangerPlane, 4400, 910, 2600, BOEING, 737-300, 277, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateTwo(passangerPlane, 8400km, 850, 2800, BOEING, 737-500, 240, false)">
+                  </a> <!-- testCreateTwo(passangerPlane, 8400km, 850, 2800, BOEING, 737-500, 240, false) -->
+                  <span class="method-name">testCreateTwo</span>
+                  <span class="parameters">(passangerPlane, 8400km, 850, 2800, BOEING, 737-500, 240, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateTwo(passangerPlane, 4400, 910, 2600, BOEING747, 737500, 277, false)">
+                  </a> <!-- testCreateTwo(passangerPlane, 4400, 910, 2600, BOEING747, 737500, 277, false) -->
+                  <span class="method-name">testCreateTwo</span>
+                  <span class="parameters">(passangerPlane, 4400, 910, 2600, BOEING747, 737500, 277, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateTwo(passangerPlane, 4400, 910, 2600, BOEING, 737-300, 277 passangers, false)">
+                  </a> <!-- testCreateTwo(passangerPlane, 4400, 910, 2600, BOEING, 737-300, 277 passangers, false) -->
+                  <span class="method-name">testCreateTwo</span>
+                  <span class="parameters">(passangerPlane, 4400, 910, 2600, BOEING, 737-300, 277 passangers, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.chybisau.firsttask.logic.filter.PlaneProducerFilterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">
+                  </a> <!-- testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...) -->
+                  <span class="method-name">testTest</span>
+                  <span class="parameters">(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, BOEING, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTest(PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2700.0 l pro...)">
+                  </a> <!-- testTest(PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2700.0 l pro...) -->
+                  <span class="method-name">testTest</span>
+                  <span class="parameters">(PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2700.0 l producer=AIRBUS, model='A320neo, , passangerCapacity=330 passangers}, BOEING, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)">
+                  </a> <!-- testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...) -->
+                  <span class="method-name">testTest</span>
+                  <span class="parameters">(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, AIRBUS, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCalculateTotalPassangerCapacity([PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l pr...)">
+                  </a> <!-- testCalculateTotalPassangerCapacity([PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l pr...) -->
+                  <span class="method-name">testCalculateTotalPassangerCapacity</span>
+                  <span class="parameters">([PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l producer=BOEING, model='737-900, , passangerCapacity=250 passangers}, PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l producer=AIRBUS, model='A320neoNew, , passangerCapacity=330 passangers}], 580)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCalculateTotalPassangerCapacity([PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pr...)">
+                  </a> <!-- testCalculateTotalPassangerCapacity([PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pr...) -->
+                  <span class="method-name">testCalculateTotalPassangerCapacity</span>
+                  <span class="parameters">([PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l producer=BOEING, model='737-900, , passangerCapacity=250 passangers}, PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l producer=AIRBUS, model='A320neoNew, , passangerCapacity=330 passangers}], 820)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetMaxPassangerCapacityPlane([PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pr...)">
+                  </a> <!-- testGetMaxPassangerCapacityPlane([PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pr...) -->
+                  <span class="method-name">testGetMaxPassangerCapacityPlane</span>
+                  <span class="parameters">([PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l producer=BOEING, model='737-900, , passangerCapacity=250 passangers}, PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l producer=AIRBUS, model='A320neoNew, , passangerCapacity=330 passangers}], PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l producer=AIRBUS, model='A320neoNew, , passangerCapacity=330 passangers})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetMaxPassangerCapacityPlane([PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l pr...)">
+                  </a> <!-- testGetMaxPassangerCapacityPlane([PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l pr...) -->
+                  <span class="method-name">testGetMaxPassangerCapacityPlane</span>
+                  <span class="parameters">([PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l producer=BOEING, model='737-900, , passangerCapacity=250 passangers}, PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l producer=AIRBUS, model='A320neoNew, , passangerCapacity=330 passangers}], PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l producer=AIRBUS, model='A320neoNew, , passangerCapacity=330 passangers})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetMinPassangerCapacityPlane([PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pr...)">
+                  </a> <!-- testGetMinPassangerCapacityPlane([PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pr...) -->
+                  <span class="method-name">testGetMinPassangerCapacityPlane</span>
+                  <span class="parameters">([PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l producer=BOEING, model='737-900, , passangerCapacity=250 passangers}, PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l producer=AIRBUS, model='A320neoNew, , passangerCapacity=330 passangers}], PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetMinPassangerCapacityPlane([PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l pr...)">
+                  </a> <!-- testGetMinPassangerCapacityPlane([PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l pr...) -->
+                  <span class="method-name">testGetMinPassangerCapacityPlane</span>
+                  <span class="parameters">([PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l producer=BOEING, model='737-900, , passangerCapacity=250 passangers}, PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l producer=AIRBUS, model='A320neoNew, , passangerCapacity=330 passangers}], PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l producer=BOEING, model='737-900, , passangerCapacity=250 passangers})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Command line suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Command line test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;by.chybisau.firsttask.creator.CargoPlaneCreatorTest&quot;/&gt;
+      &lt;class name=&quot;by.chybisau.firsttask.creator.IdGeneratorTest&quot;/&gt;
+      &lt;class name=&quot;by.chybisau.firsttask.creator.PassangerPlaneCreatorTest&quot;/&gt;
+      &lt;class name=&quot;by.chybisau.firsttask.factory.FlyingMachinesFactoryTest&quot;/&gt;
+      &lt;class name=&quot;by.chybisau.firsttask.InitialDataForTest&quot;/&gt;
+      &lt;class name=&quot;by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest&quot;/&gt;
+      &lt;class name=&quot;by.chybisau.firsttask.logic.filter.FuelConsumptionFilterTest&quot;/&gt;
+      &lt;class name=&quot;by.chybisau.firsttask.logic.filter.PlaneProducerFilterTest&quot;/&gt;
+      &lt;class name=&quot;by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest&quot;/&gt;
+      &lt;class name=&quot;by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest&quot;/&gt;
+      &lt;class name=&quot;by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest&quot;/&gt;
+      &lt;class name=&quot;by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest&quot;/&gt;
+      &lt;class name=&quot;by.chybisau.firsttask.logic.sorter.FlightRangeComparatorTest&quot;/&gt;
+      &lt;class name=&quot;by.chybisau.firsttask.logic.sorter.FuelConsumptionComparatorTest&quot;/&gt;
+      &lt;class name=&quot;by.chybisau.firsttask.logic.sorter.PassangerCapacityComparatorTest&quot;/&gt;
+      &lt;class name=&quot;by.chybisau.firsttask.validator.StringValidatorTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (16 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(63);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testCreate')
+data.setCell(0, 2, 'by.chybisau.firsttask.creator.CargoPlaneCreatorTest')
+data.setCell(0, 3, 10);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testCalculateTotalCargoCapacity')
+data.setCell(1, 2, 'by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest')
+data.setCell(1, 3, 10);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testCreate')
+data.setCell(2, 2, 'by.chybisau.firsttask.creator.CargoPlaneCreatorTest')
+data.setCell(2, 3, 10);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCompare')
+data.setCell(3, 2, 'by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSortFuelConsumptionOfPlanes')
+data.setCell(4, 2, 'by.chybisau.firsttask.logic.sorter.FuelConsumptionComparatorTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testTest')
+data.setCell(5, 2, 'by.chybisau.firsttask.logic.filter.PlaneProducerFilterTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testCalculateTotalPassangerCapacity')
+data.setCell(6, 2, 'by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testCompare')
+data.setCell(7, 2, 'by.chybisau.firsttask.logic.sorter.FlightRangeComparatorTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testCreate')
+data.setCell(8, 2, 'by.chybisau.firsttask.creator.PassangerPlaneCreatorTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testTest')
+data.setCell(9, 2, 'by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testGetMinPassangerCapacityPlane')
+data.setCell(10, 2, 'by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testTest')
+data.setCell(11, 2, 'by.chybisau.firsttask.logic.filter.PlaneProducerFilterTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testCreateTwo')
+data.setCell(12, 2, 'by.chybisau.firsttask.factory.FlyingMachinesFactoryTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testCalculateTotalPassangerCapacity')
+data.setCell(13, 2, 'by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testCompare')
+data.setCell(14, 2, 'by.chybisau.firsttask.logic.sorter.FlightRangeComparatorTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testCreateTwo')
+data.setCell(15, 2, 'by.chybisau.firsttask.creator.PassangerPlaneCreatorTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testCreate')
+data.setCell(16, 2, 'by.chybisau.firsttask.factory.FlyingMachinesFactoryTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testGetDescendingOrderOfCruisingSpeed')
+data.setCell(17, 2, 'by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testGetMinPassangerCapacityPlane')
+data.setCell(18, 2, 'by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testCreate')
+data.setCell(19, 2, 'by.chybisau.firsttask.creator.PassangerPlaneCreatorTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testSortFlightRange')
+data.setCell(20, 2, 'by.chybisau.firsttask.logic.sorter.FlightRangeComparatorTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testGetMinCargoCapacityPlane')
+data.setCell(21, 2, 'by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testCreate')
+data.setCell(22, 2, 'by.chybisau.firsttask.creator.PassangerPlaneCreatorTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testCalculateTotalCargoCapacity')
+data.setCell(23, 2, 'by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testCreateTwo')
+data.setCell(24, 2, 'by.chybisau.firsttask.factory.FlyingMachinesFactoryTest')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testValidate')
+data.setCell(25, 2, 'by.chybisau.firsttask.validator.StringValidatorTest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testCreate')
+data.setCell(26, 2, 'by.chybisau.firsttask.factory.FlyingMachinesFactoryTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testValidate')
+data.setCell(27, 2, 'by.chybisau.firsttask.validator.StringValidatorTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testGetAscendingOrderOfCruisingSpeed')
+data.setCell(28, 2, 'by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testValidate')
+data.setCell(29, 2, 'by.chybisau.firsttask.validator.StringValidatorTest')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testCreateTwo')
+data.setCell(30, 2, 'by.chybisau.firsttask.factory.FlyingMachinesFactoryTest')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testCompare')
+data.setCell(31, 2, 'by.chybisau.firsttask.logic.sorter.FuelConsumptionComparatorTest')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testValidate')
+data.setCell(32, 2, 'by.chybisau.firsttask.validator.StringValidatorTest')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testGetMinCargoCapacityPlane')
+data.setCell(33, 2, 'by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testCompare')
+data.setCell(34, 2, 'by.chybisau.firsttask.logic.sorter.FuelConsumptionComparatorTest')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testTest')
+data.setCell(35, 2, 'by.chybisau.firsttask.logic.filter.FuelConsumptionFilterTest')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testValidate')
+data.setCell(36, 2, 'by.chybisau.firsttask.validator.StringValidatorTest')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testCreate')
+data.setCell(37, 2, 'by.chybisau.firsttask.factory.FlyingMachinesFactoryTest')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testTest')
+data.setCell(38, 2, 'by.chybisau.firsttask.logic.filter.FuelConsumptionFilterTest')
+data.setCell(38, 3, 0);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testCreateTwo')
+data.setCell(39, 2, 'by.chybisau.firsttask.creator.PassangerPlaneCreatorTest')
+data.setCell(39, 3, 0);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testTest')
+data.setCell(40, 2, 'by.chybisau.firsttask.logic.filter.FuelConsumptionFilterTest')
+data.setCell(40, 3, 0);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testCreate')
+data.setCell(41, 2, 'by.chybisau.firsttask.creator.PassangerPlaneCreatorTest')
+data.setCell(41, 3, 0);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testCreate')
+data.setCell(42, 2, 'by.chybisau.firsttask.factory.FlyingMachinesFactoryTest')
+data.setCell(42, 3, 0);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testCreate')
+data.setCell(43, 2, 'by.chybisau.firsttask.creator.CargoPlaneCreatorTest')
+data.setCell(43, 3, 0);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testGetMaxCargoCapacityPlane')
+data.setCell(44, 2, 'by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest')
+data.setCell(44, 3, 0);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testCompare')
+data.setCell(45, 2, 'by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest')
+data.setCell(45, 3, 0);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'testTest')
+data.setCell(46, 2, 'by.chybisau.firsttask.logic.filter.PlaneProducerFilterTest')
+data.setCell(46, 3, 0);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'testCompare')
+data.setCell(47, 2, 'by.chybisau.firsttask.logic.sorter.PassangerCapacityComparatorTest')
+data.setCell(47, 3, 0);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'testThenComparing')
+data.setCell(48, 2, 'by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest')
+data.setCell(48, 3, 0);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'testCompare')
+data.setCell(49, 2, 'by.chybisau.firsttask.logic.sorter.PassangerCapacityComparatorTest')
+data.setCell(49, 3, 0);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'testTest')
+data.setCell(50, 2, 'by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest')
+data.setCell(50, 3, 0);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'testGetMaxPassangerCapacityPlane')
+data.setCell(51, 2, 'by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest')
+data.setCell(51, 3, 0);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'testCompare')
+data.setCell(52, 2, 'by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest')
+data.setCell(52, 3, 0);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'testTest')
+data.setCell(53, 2, 'by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest')
+data.setCell(53, 3, 0);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'testCreate')
+data.setCell(54, 2, 'by.chybisau.firsttask.creator.PassangerPlaneCreatorTest')
+data.setCell(54, 3, 0);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'testValidate')
+data.setCell(55, 2, 'by.chybisau.firsttask.validator.StringValidatorTest')
+data.setCell(55, 3, 0);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'testGetMaxCargoCapacityPlane')
+data.setCell(56, 2, 'by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest')
+data.setCell(56, 3, 0);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'testGetAscendingOrderOfCargoCapacity')
+data.setCell(57, 2, 'by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest')
+data.setCell(57, 3, 0);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'testSortPassangerCapacityOfPlanes')
+data.setCell(58, 2, 'by.chybisau.firsttask.logic.sorter.PassangerCapacityComparatorTest')
+data.setCell(58, 3, 0);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'testTest')
+data.setCell(59, 2, 'by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest')
+data.setCell(59, 3, 0);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'testGetMaxPassangerCapacityPlane')
+data.setCell(60, 2, 'by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest')
+data.setCell(60, 3, 0);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'testCreateTwo')
+data.setCell(61, 2, 'by.chybisau.firsttask.creator.PassangerPlaneCreatorTest')
+data.setCell(61, 3, 0);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'testCompare')
+data.setCell(62, 2, 'by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest')
+data.setCell(62, 3, 0);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 30 ms</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.chybisau.firsttask.creator.CargoPlaneCreatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCreate(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...)</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreate(CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l produ...)</span>
+                <span class="method-start">30 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreate(PassangerPlane{id=0, flightRange=4400.0 km , cruisingSpeed=910.0 km/h , fuelConsumption=2600.0 l pro...)</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.chybisau.firsttask.creator.PassangerPlaneCreatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCreate(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreate(CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l produce...)</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreate(PassangerPlane{id=0, flightRange=0.0 km , cruisingSpeed=0.0 km/h , fuelConsumption=0.0 l producer=nu...)</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreate(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreate(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateTwo(passangerPlane, 8400km, 850, 2800, BOEING, 737-500, 240, false)</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateTwo(passangerPlane, 4400, 910, 2600, BOEING747, 737500, 277, false)</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateTwo(passangerPlane, 4400, 910, 2600, BOEING, 737-300, 277 passangers, false)</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.chybisau.firsttask.factory.FlyingMachinesFactoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCreate(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreate(PassangerPlane{id=0, flightRange=4400.0 km , cruisingSpeed=910.0 km/h , fuelConsumption=2600.0 l pro...)</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreate(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...)</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreate(CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l produ...)</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateTwo(passangerPlane1, 8400, 850, 2800, BOEING, 737-500, 240, false)</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateTwo(passanger Plane, 4400, 910, 2600, BOEING, 737-300, 277, false)</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateTwo(cargoPlaneAN,   5425,   853,   12600,   AN,  124,   120000, false)</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.chybisau.firsttask.logic.filter.FuelConsumptionFilterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTest(PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l pro...)</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTest(PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l pro...)</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.chybisau.firsttask.logic.filter.PlaneProducerFilterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTest(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTest(PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2700.0 l pro...)</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCalculateTotalCargoCapacity([CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produ...)</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCalculateTotalCargoCapacity([CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l prod...)</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetMaxCargoCapacityPlane([CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produ...)</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetMaxCargoCapacityPlane([CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l prod...)</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetMinCargoCapacityPlane([CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produ...)</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetMinCargoCapacityPlane([CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l prod...)</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCalculateTotalPassangerCapacity([PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pr...)</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCalculateTotalPassangerCapacity([PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l pr...)</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetMaxPassangerCapacityPlane([PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pr...)</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetMaxPassangerCapacityPlane([PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l pr...)</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetMinPassangerCapacityPlane([PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pr...)</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetMinPassangerCapacityPlane([PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l pr...)</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCompare(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...)</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testCompare(CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l produ...)</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testGetAscendingOrderOfCargoCapacity</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testThenComparing</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">70 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">70 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCompare(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...)</span>
+                <span class="method-start">70 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">70 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testCompare(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</span>
+                <span class="method-start">70 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">70 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testGetAscendingOrderOfCruisingSpeed</span>
+                <span class="method-start">70 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">70 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testGetDescendingOrderOfCruisingSpeed</span>
+                <span class="method-start">70 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">70 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.chybisau.firsttask.logic.sorter.FlightRangeComparatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">70 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCompare(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...)</span>
+                <span class="method-start">70 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">70 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testCompare(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</span>
+                <span class="method-start">70 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">70 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSortFlightRange</span>
+                <span class="method-start">70 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.chybisau.firsttask.logic.sorter.FuelConsumptionComparatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCompare(CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l produc...)</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testCompare(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSortFuelConsumptionOfPlanes</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.chybisau.firsttask.logic.sorter.PassangerCapacityComparatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCompare(PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l pro...)</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testCompare(PassangerPlane{id=0, flightRange=4400.0 km , cruisingSpeed=910.0 km/h , fuelConsumption=2600.0 l pro...)</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSortPassangerCapacityOfPlanes</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.chybisau.firsttask.validator.StringValidatorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testValidate(passangerPlane, 8400, 850, 2800, BOEING, 737-600, 250, true)</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidate(passangerPlane, 5648, 852, 2700, BOEING, 737-700, 126, true)</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidate(passangerPlane, 852, 2700, BOEING, 737-700, 126, false)</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidate(PaSsAnGerPlAnE, 8400, 852, 2700, BoeiNG, 456-96f, 126, true)</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidate(paSsAnGerPlaNe,  5648,  852,  2700,  Boeing,  737-700,   126, true)</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidate(CargoPlanE,   5425,   853,   12600,   AN,  124,   120000, true)</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

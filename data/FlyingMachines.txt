@@ -1,0 +1,11 @@
+passangerPlane, 8400, 850, 2800, BOEING, 737-500, 240
+cargoPlane, 15400, 800, 15900, AN, 225, 250000
+passangerPlane, 4400, 910, 2600, BOEING, 737-300, 277
+passangerPlane, 5648, 852, 2700, BOEING, 737-700, 126
+passangerPlane, 5800, 855, 2700, BOEING, 737-900, 240
+passangerPlane, 8400, 850, 2800, BOEING, 737-600, 250
+passangerPlane,   6850,    830,    2700,   AIRBUS,    A320neo,   330
+cargoPlane, 5425, 853, 12600, AN, 124, 120000
+cargoPlane,   5425,   853,   12600,   AN,  124,   120000
+null
+cargoPlane, 5560, AN, 125,

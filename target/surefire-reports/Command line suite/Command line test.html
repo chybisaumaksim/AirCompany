@@ -1,0 +1,394 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>63/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue May 14 10:28:35 GMT+02:00 2019</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (90 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest.testCalculateTotalCargoCapacity()'><b>testCalculateTotalCargoCapacity</b><br>Test class: by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest<br>Parameters: [CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}, CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l producer=AN, model='127, , cargoCapacity=140000.0 tons}], 510000</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest@3b956878</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest.testCalculateTotalCargoCapacity()'><b>testCalculateTotalCargoCapacity</b><br>Test class: by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest<br>Parameters: [CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l producer=AN, model='127, , cargoCapacity=140000.0 tons}], 390000</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest@3b956878</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest.testCalculateTotalPassangerCapacity()'><b>testCalculateTotalPassangerCapacity</b><br>Test class: by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest<br>Parameters: [PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l producer=BOEING, model='737-900, , passangerCapacity=250 passangers}, PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l producer=AIRBUS, model='A320neoNew, , passangerCapacity=330 passangers}], 820</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest@36546a22</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest.testCalculateTotalPassangerCapacity()'><b>testCalculateTotalPassangerCapacity</b><br>Test class: by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest<br>Parameters: [PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l producer=BOEING, model='737-900, , passangerCapacity=250 passangers}, PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l producer=AIRBUS, model='A320neoNew, , passangerCapacity=330 passangers}], 580</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest@36546a22</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest.testCompare()'><b>testCompare</b><br>Test class: by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest<br>Parameters: CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}, CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, -130000</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest@285c08c8</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest.testCompare()'><b>testCompare</b><br>Test class: by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest<br>Parameters: CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}, 130000</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest@285c08c8</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest.testCompare()'><b>testCompare</b><br>Test class: by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest<br>Parameters: CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}, CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, 53</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest@295eaa7c</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest.testCompare()'><b>testCompare</b><br>Test class: by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest<br>Parameters: PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, 50</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest@295eaa7c</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.sorter.FlightRangeComparatorTest.testCompare()'><b>testCompare</b><br>Test class: by.chybisau.firsttask.logic.sorter.FlightRangeComparatorTest<br>Parameters: CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}, CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, -9975</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.sorter.FlightRangeComparatorTest@3918c187</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.sorter.FlightRangeComparatorTest.testCompare()'><b>testCompare</b><br>Test class: by.chybisau.firsttask.logic.sorter.FlightRangeComparatorTest<br>Parameters: PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, -7000</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.sorter.FlightRangeComparatorTest@3918c187</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.sorter.FuelConsumptionComparatorTest.testCompare()'><b>testCompare</b><br>Test class: by.chybisau.firsttask.logic.sorter.FuelConsumptionComparatorTest<br>Parameters: CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}, CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, -3300</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.sorter.FuelConsumptionComparatorTest@2c88b9fc</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.sorter.FuelConsumptionComparatorTest.testCompare()'><b>testCompare</b><br>Test class: by.chybisau.firsttask.logic.sorter.FuelConsumptionComparatorTest<br>Parameters: PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, -13100</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.sorter.FuelConsumptionComparatorTest@2c88b9fc</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.sorter.PassangerCapacityComparatorTest.testCompare()'><b>testCompare</b><br>Test class: by.chybisau.firsttask.logic.sorter.PassangerCapacityComparatorTest<br>Parameters: PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, PassangerPlane{id=0, flightRange=4400.0 km , cruisingSpeed=910.0 km/h , fuelConsumption=2600.0 l producer=BOEING, model='737500, , passangerCapacity=277 passangers}, -37</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.sorter.PassangerCapacityComparatorTest@64dafeed</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.sorter.PassangerCapacityComparatorTest.testCompare()'><b>testCompare</b><br>Test class: by.chybisau.firsttask.logic.sorter.PassangerCapacityComparatorTest<br>Parameters: PassangerPlane{id=0, flightRange=4400.0 km , cruisingSpeed=910.0 km/h , fuelConsumption=2600.0 l producer=BOEING, model='737500, , passangerCapacity=277 passangers}, PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, 37</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.sorter.PassangerCapacityComparatorTest@64dafeed</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.creator.CargoPlaneCreatorTest.testCreate()'><b>testCreate</b><br>Test class: by.chybisau.firsttask.creator.CargoPlaneCreatorTest<br>Parameters: CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}, cargoPlane,   5425,   853,   12600,   AN,  124,   120000, true</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.creator.CargoPlaneCreatorTest@6c6c5427</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.creator.CargoPlaneCreatorTest.testCreate()'><b>testCreate</b><br>Test class: by.chybisau.firsttask.creator.CargoPlaneCreatorTest<br>Parameters: CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, cargoPlane, 15400, 800, 15900, AN, 225, 250000, true</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.creator.CargoPlaneCreatorTest@6c6c5427</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.creator.CargoPlaneCreatorTest.testCreate()'><b>testCreate</b><br>Test class: by.chybisau.firsttask.creator.CargoPlaneCreatorTest<br>Parameters: PassangerPlane{id=0, flightRange=4400.0 km , cruisingSpeed=910.0 km/h , fuelConsumption=2600.0 l producer=BOEING, model='737500, , passangerCapacity=277 passangers}, passangerPlane, 4400, 910, 2600, BOEING, 737, 300, 277, false</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.creator.CargoPlaneCreatorTest@6c6c5427</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.creator.PassangerPlaneCreatorTest.testCreate()'><b>testCreate</b><br>Test class: by.chybisau.firsttask.creator.PassangerPlaneCreatorTest<br>Parameters: PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, passangerPlane, 8400, 850, 2800, BOEING, 737-500, 240, true</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.creator.PassangerPlaneCreatorTest@618c5d94</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.creator.PassangerPlaneCreatorTest.testCreate()'><b>testCreate</b><br>Test class: by.chybisau.firsttask.creator.PassangerPlaneCreatorTest<br>Parameters: CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l producer=AN, model='127, , cargoCapacity=140000.0 tons}, passangerPlane, 4400, 910, 2600, BOEING, 737-300, 277, false</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.creator.PassangerPlaneCreatorTest@618c5d94</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.creator.PassangerPlaneCreatorTest.testCreate()'><b>testCreate</b><br>Test class: by.chybisau.firsttask.creator.PassangerPlaneCreatorTest<br>Parameters: PassangerPlane{id=0, flightRange=0.0 km , cruisingSpeed=0.0 km/h , fuelConsumption=0.0 l producer=null, model='null, , passangerCapacity=0 passangers}, null, true</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.creator.PassangerPlaneCreatorTest@618c5d94</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.creator.PassangerPlaneCreatorTest.testCreate()'><b>testCreate</b><br>Test class: by.chybisau.firsttask.creator.PassangerPlaneCreatorTest<br>Parameters: PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, passangerPlane, 8400, 850, 2800, BOEING, 737-500, 240, true</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.creator.PassangerPlaneCreatorTest@618c5d94</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.creator.PassangerPlaneCreatorTest.testCreate()'><b>testCreate</b><br>Test class: by.chybisau.firsttask.creator.PassangerPlaneCreatorTest<br>Parameters: PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, passangerPlane, 4400, 910, 2600, BOEING, 737500, 277, false</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.creator.PassangerPlaneCreatorTest@618c5d94</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.factory.FlyingMachinesFactoryTest.testCreate()'><b>testCreate</b><br>Test class: by.chybisau.firsttask.factory.FlyingMachinesFactoryTest<br>Parameters: PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, passangerPlane, 8400, 850, 2800, BOEING, 737-500, 240</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.factory.FlyingMachinesFactoryTest@5b40ceb</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.factory.FlyingMachinesFactoryTest.testCreate()'><b>testCreate</b><br>Test class: by.chybisau.firsttask.factory.FlyingMachinesFactoryTest<br>Parameters: PassangerPlane{id=0, flightRange=4400.0 km , cruisingSpeed=910.0 km/h , fuelConsumption=2600.0 l producer=BOEING, model='737-300, , passangerCapacity=277 passangers}, passangerPlane, 4400, 910, 2600, BOEING, 737-300, 277</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.factory.FlyingMachinesFactoryTest@5b40ceb</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.factory.FlyingMachinesFactoryTest.testCreate()'><b>testCreate</b><br>Test class: by.chybisau.firsttask.factory.FlyingMachinesFactoryTest<br>Parameters: CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}, cargoPlane,   5425,   853,   12600,   AN,  124,   120000</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.factory.FlyingMachinesFactoryTest@5b40ceb</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.factory.FlyingMachinesFactoryTest.testCreate()'><b>testCreate</b><br>Test class: by.chybisau.firsttask.factory.FlyingMachinesFactoryTest<br>Parameters: CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, cargoPlane, 15400, 800, 15900, AN, 225, 250000</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.factory.FlyingMachinesFactoryTest@5b40ceb</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.creator.PassangerPlaneCreatorTest.testCreateTwo()'><b>testCreateTwo</b><br>Test class: by.chybisau.firsttask.creator.PassangerPlaneCreatorTest<br>Parameters: passangerPlane, 8400km, 850, 2800, BOEING, 737-500, 240, false</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.creator.PassangerPlaneCreatorTest@618c5d94</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.creator.PassangerPlaneCreatorTest.testCreateTwo()'><b>testCreateTwo</b><br>Test class: by.chybisau.firsttask.creator.PassangerPlaneCreatorTest<br>Parameters: passangerPlane, 4400, 910, 2600, BOEING747, 737500, 277, false</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.creator.PassangerPlaneCreatorTest@618c5d94</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.creator.PassangerPlaneCreatorTest.testCreateTwo()'><b>testCreateTwo</b><br>Test class: by.chybisau.firsttask.creator.PassangerPlaneCreatorTest<br>Parameters: passangerPlane, 4400, 910, 2600, BOEING, 737-300, 277 passangers, false</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.creator.PassangerPlaneCreatorTest@618c5d94</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.factory.FlyingMachinesFactoryTest.testCreateTwo()'><b>testCreateTwo</b><br>Test class: by.chybisau.firsttask.factory.FlyingMachinesFactoryTest<br>Parameters: passangerPlane1, 8400, 850, 2800, BOEING, 737-500, 240, false</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.factory.FlyingMachinesFactoryTest@5b40ceb</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.factory.FlyingMachinesFactoryTest.testCreateTwo()'><b>testCreateTwo</b><br>Test class: by.chybisau.firsttask.factory.FlyingMachinesFactoryTest<br>Parameters: passanger Plane, 4400, 910, 2600, BOEING, 737-300, 277, false</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.factory.FlyingMachinesFactoryTest@5b40ceb</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.factory.FlyingMachinesFactoryTest.testCreateTwo()'><b>testCreateTwo</b><br>Test class: by.chybisau.firsttask.factory.FlyingMachinesFactoryTest<br>Parameters: cargoPlaneAN,   5425,   853,   12600,   AN,  124,   120000, false</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.factory.FlyingMachinesFactoryTest@5b40ceb</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest.testGetAscendingOrderOfCargoCapacity()'><b>testGetAscendingOrderOfCargoCapacity</b><br>Test class: by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest@285c08c8</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest.testGetAscendingOrderOfCruisingSpeed()'><b>testGetAscendingOrderOfCruisingSpeed</b><br>Test class: by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest@295eaa7c</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest.testGetDescendingOrderOfCruisingSpeed()'><b>testGetDescendingOrderOfCruisingSpeed</b><br>Test class: by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.sorter.CruisingSpeedComparatorTest@295eaa7c</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest.testGetMaxCargoCapacityPlane()'><b>testGetMaxCargoCapacityPlane</b><br>Test class: by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest<br>Parameters: [CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}, CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l producer=AN, model='127, , cargoCapacity=140000.0 tons}], CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest@3b956878</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest.testGetMaxCargoCapacityPlane()'><b>testGetMaxCargoCapacityPlane</b><br>Test class: by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest<br>Parameters: [CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l producer=AN, model='127, , cargoCapacity=140000.0 tons}], CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest@3b956878</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest.testGetMaxPassangerCapacityPlane()'><b>testGetMaxPassangerCapacityPlane</b><br>Test class: by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest<br>Parameters: [PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l producer=BOEING, model='737-900, , passangerCapacity=250 passangers}, PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l producer=AIRBUS, model='A320neoNew, , passangerCapacity=330 passangers}], PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l producer=AIRBUS, model='A320neoNew, , passangerCapacity=330 passangers}</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest@36546a22</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest.testGetMaxPassangerCapacityPlane()'><b>testGetMaxPassangerCapacityPlane</b><br>Test class: by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest<br>Parameters: [PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l producer=BOEING, model='737-900, , passangerCapacity=250 passangers}, PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l producer=AIRBUS, model='A320neoNew, , passangerCapacity=330 passangers}], PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l producer=AIRBUS, model='A320neoNew, , passangerCapacity=330 passangers}</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest@36546a22</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest.testGetMinCargoCapacityPlane()'><b>testGetMinCargoCapacityPlane</b><br>Test class: by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest<br>Parameters: [CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}, CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l producer=AN, model='127, , cargoCapacity=140000.0 tons}], CargoPlane{id=0, flightRange=5425.0 km , cruisingSpeed=853.0 km/h , fuelConsumption=12600.0 l producer=AN, model='124, , cargoCapacity=120000.0 tons}</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest@3b956878</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest.testGetMinCargoCapacityPlane()'><b>testGetMinCargoCapacityPlane</b><br>Test class: by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest<br>Parameters: [CargoPlane{id=0, flightRange=15400.0 km , cruisingSpeed=800.0 km/h , fuelConsumption=15900.0 l producer=AN, model='225, , cargoCapacity=250000.0 tons}, CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l producer=AN, model='127, , cargoCapacity=140000.0 tons}], CargoPlane{id=0, flightRange=8800.0 km , cruisingSpeed=760.0 km/h , fuelConsumption=7200.0 l producer=AN, model='127, , cargoCapacity=140000.0 tons}</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.finder.capacityfinder.CargoCapacityFinderTest@3b956878</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest.testGetMinPassangerCapacityPlane()'><b>testGetMinPassangerCapacityPlane</b><br>Test class: by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest<br>Parameters: [PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l producer=BOEING, model='737-900, , passangerCapacity=250 passangers}, PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l producer=AIRBUS, model='A320neoNew, , passangerCapacity=330 passangers}], PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest@36546a22</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest.testGetMinPassangerCapacityPlane()'><b>testGetMinPassangerCapacityPlane</b><br>Test class: by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest<br>Parameters: [PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l producer=BOEING, model='737-900, , passangerCapacity=250 passangers}, PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l producer=AIRBUS, model='A320neoNew, , passangerCapacity=330 passangers}], PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l producer=BOEING, model='737-900, , passangerCapacity=250 passangers}</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.finder.capacityfinder.PassangerCapacityFinderTest@36546a22</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.sorter.FlightRangeComparatorTest.testSortFlightRange()'><b>testSortFlightRange</b><br>Test class: by.chybisau.firsttask.logic.sorter.FlightRangeComparatorTest</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.sorter.FlightRangeComparatorTest@3918c187</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.sorter.FuelConsumptionComparatorTest.testSortFuelConsumptionOfPlanes()'><b>testSortFuelConsumptionOfPlanes</b><br>Test class: by.chybisau.firsttask.logic.sorter.FuelConsumptionComparatorTest</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.sorter.FuelConsumptionComparatorTest@2c88b9fc</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.sorter.PassangerCapacityComparatorTest.testSortPassangerCapacityOfPlanes()'><b>testSortPassangerCapacityOfPlanes</b><br>Test class: by.chybisau.firsttask.logic.sorter.PassangerCapacityComparatorTest</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.sorter.PassangerCapacityComparatorTest@64dafeed</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest.testTest()'><b>testTest</b><br>Test class: by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest<br>Parameters: PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737 - 500, , passangerCapacity=240 passangers}, 910, false</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest@13c3c1e1</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest.testTest()'><b>testTest</b><br>Test class: by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest<br>Parameters: PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737 - 500, , passangerCapacity=240 passangers}, 852, false</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest@13c3c1e1</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest.testTest()'><b>testTest</b><br>Test class: by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest<br>Parameters: PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737 - 500, , passangerCapacity=240 passangers}, 800, true</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest@13c3c1e1</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest.testTest()'><b>testTest</b><br>Test class: by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest<br>Parameters: PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737 - 500, , passangerCapacity=240 passangers}, 850, true</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest@13c3c1e1</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.filter.FuelConsumptionFilterTest.testTest()'><b>testTest</b><br>Test class: by.chybisau.firsttask.logic.filter.FuelConsumptionFilterTest<br>Parameters: PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, 2500, 2650, false</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.filter.FuelConsumptionFilterTest@1d8062d2</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.filter.FuelConsumptionFilterTest.testTest()'><b>testTest</b><br>Test class: by.chybisau.firsttask.logic.filter.FuelConsumptionFilterTest<br>Parameters: PassangerPlane{id=0, flightRange=5800.0 km , cruisingSpeed=855.0 km/h , fuelConsumption=2700.0 l producer=BOEING, model='737-900, , passangerCapacity=240 passangers}, 2750, 2900, false</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.filter.FuelConsumptionFilterTest@1d8062d2</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.filter.FuelConsumptionFilterTest.testTest()'><b>testTest</b><br>Test class: by.chybisau.firsttask.logic.filter.FuelConsumptionFilterTest<br>Parameters: PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2500.0 l producer=AIRBUS, model='A320neoNew, , passangerCapacity=330 passangers}, 2400, 2600, true</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.filter.FuelConsumptionFilterTest@1d8062d2</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.filter.PlaneProducerFilterTest.testTest()'><b>testTest</b><br>Test class: by.chybisau.firsttask.logic.filter.PlaneProducerFilterTest<br>Parameters: PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, BOEING, true</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.filter.PlaneProducerFilterTest@1e63ec0b</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.filter.PlaneProducerFilterTest.testTest()'><b>testTest</b><br>Test class: by.chybisau.firsttask.logic.filter.PlaneProducerFilterTest<br>Parameters: PassangerPlane{id=0, flightRange=8400.0 km , cruisingSpeed=850.0 km/h , fuelConsumption=2800.0 l producer=BOEING, model='737-500, , passangerCapacity=240 passangers}, AIRBUS, false</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.filter.PlaneProducerFilterTest@1e63ec0b</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.filter.PlaneProducerFilterTest.testTest()'><b>testTest</b><br>Test class: by.chybisau.firsttask.logic.filter.PlaneProducerFilterTest<br>Parameters: PassangerPlane{id=0, flightRange=6850.0 km , cruisingSpeed=830.0 km/h , fuelConsumption=2700.0 l producer=AIRBUS, model='A320neo, , passangerCapacity=330 passangers}, BOEING, false</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.filter.PlaneProducerFilterTest@1e63ec0b</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest.testThenComparing()'><b>testThenComparing</b><br>Test class: by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.logic.sorter.CargoCapacityAndCruisingSpeedComparatorTest@285c08c8</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.validator.StringValidatorTest.testValidate()'><b>testValidate</b><br>Test class: by.chybisau.firsttask.validator.StringValidatorTest<br>Parameters: passangerPlane, 8400, 850, 2800, BOEING, 737-600, 250, true</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.validator.StringValidatorTest@388ba540</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.validator.StringValidatorTest.testValidate()'><b>testValidate</b><br>Test class: by.chybisau.firsttask.validator.StringValidatorTest<br>Parameters: passangerPlane, 5648, 852, 2700, BOEING, 737-700, 126, true</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.validator.StringValidatorTest@388ba540</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.validator.StringValidatorTest.testValidate()'><b>testValidate</b><br>Test class: by.chybisau.firsttask.validator.StringValidatorTest<br>Parameters: passangerPlane, 852, 2700, BOEING, 737-700, 126, false</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.validator.StringValidatorTest@388ba540</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.validator.StringValidatorTest.testValidate()'><b>testValidate</b><br>Test class: by.chybisau.firsttask.validator.StringValidatorTest<br>Parameters: PaSsAnGerPlAnE, 8400, 852, 2700, BoeiNG, 456-96f, 126, true</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.validator.StringValidatorTest@388ba540</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.validator.StringValidatorTest.testValidate()'><b>testValidate</b><br>Test class: by.chybisau.firsttask.validator.StringValidatorTest<br>Parameters: paSsAnGerPlaNe,  5648,  852,  2700,  Boeing,  737-700,   126, true</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.validator.StringValidatorTest@388ba540</td></tr>
+<tr>
+<td title='by.chybisau.firsttask.validator.StringValidatorTest.testValidate()'><b>testValidate</b><br>Test class: by.chybisau.firsttask.validator.StringValidatorTest<br>Parameters: CargoPlanE,   5425,   853,   12600,   AN,  124,   120000, true</td>
+<td></td>
+<td>0</td>
+<td>by.chybisau.firsttask.validator.StringValidatorTest@388ba540</td></tr>
+</table><p>
+</body>
+</html>

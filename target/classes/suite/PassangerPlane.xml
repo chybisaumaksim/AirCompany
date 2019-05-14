@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="PassangerPlane" verbose="1" parallel="false" thread-count="2">
+    <test name="Filter">
+        <parameter name="first" value="910"/>
+        <parameter name="expected" value="false"/>
+        <classes>
+            <class name="by.chybisau.firsttask.logic.filter.CruisingSpeedFilterTest"></class>
+        </classes>
+    </test>
+</suite>
