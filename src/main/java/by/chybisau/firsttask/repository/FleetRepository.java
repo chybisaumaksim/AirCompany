@@ -45,13 +45,12 @@ public class FleetRepository implements Repository<FlyingMashine> {
     }
 
     @Override
-    public Optional<FlyingMashine> update(FlyingMashine flyingMashineForUpdate, long id) {
-        FlyingMashine resultFlyingTransport = null;
-        if (flyingMashines.get((int) id).getFlyingMashineId() == flyingMashineForUpdate.getFlyingMashineId()) {
-            resultFlyingTransport = flyingMashines.get((int) id);
-            flyingMashines.set((int) id, flyingMashineForUpdate);
-        }
-        return Optional.ofNullable(resultFlyingTransport);
+    public Optional<FlyingMashine> update(FlyingMashine flyingMashineForUpdate) {
+        FlyingMashine resultFlyingMashine = null;
+        flyingMashines.stream().anyMatch(flyingMashine -> flyingMashine.getFlyingMashineId() == flyingMashineForUpdate.getFlyingMashineId());
+        resultFlyingMashine = flyingMashines.get((int) flyingMashineForUpdate.getFlyingMashineId());
+        flyingMashines.set((int) flyingMashineForUpdate.getFlyingMashineId(), flyingMashineForUpdate);
+        return Optional.ofNullable(resultFlyingMashine);
     }
 
     @Override

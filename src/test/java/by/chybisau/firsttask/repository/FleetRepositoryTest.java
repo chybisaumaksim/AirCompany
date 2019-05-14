@@ -62,9 +62,12 @@ public class FleetRepositoryTest {
         assertTrue(actual);
     }
 
-    @Test(dataProvider = "updateData")
-    public void testUpdate(Optional<FlyingMashine> expected, long id) {
-        FlyingMashine actual = fleetRepository.update(expected, id);
+    @Test
+    public void testUpdate(){
+        flyingMashine = new CargoPlane(1, 5425, 853, 12_600, AN, "124", 120_000);
+        flyingMashine2 = new PassangerPlane(2, 8400, 850, 2800, BOEING, "737-500", 240);
+        Optional<FlyingMashine> actual = fleetRepository.update(flyingMashine);
+        Optional<FlyingMashine> expected = Optional.of(flyingMashine2);
         assertEquals(actual, expected);
     }
 
@@ -112,18 +115,6 @@ public class FleetRepositoryTest {
                 {specification1, actual1},
                 {specification2, actual2},
                 {specification3, actual3}
-        };
-    }
-
-    @DataProvider(name = "updateData")
-    public Object[][] dataProviderUpdate() {
-        flyingMashine = new CargoPlane(12, 5425, 853, 12_600, AN, "124", 120_000);
-        flyingMashine2 = new PassangerPlane(14, 8400, 850, 2800, BOEING, "737-500", 240);
-        flyingMashine3 = new CargoPlane(16, 8_800, 760, 7_200, AN, "127", 140_000);
-        return new Object[][]{
-                {Optional.ofNullable(flyingMashine2), 1},
-                {Optional.ofNullable(flyingMashine), 2},
-                {Optional.ofNullable(flyingMashine3), 0}
         };
     }
 }
