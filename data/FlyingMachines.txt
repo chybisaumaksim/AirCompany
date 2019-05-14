@@ -6,6 +6,6 @@ passangerPlane, 5800, 855, 2700, BOEING, 737-900, 240
 passangerPlane, 8400, 850, 2800, BOEING, 737-600, 250
 passangerPlane,   6850,    830,    2700,   AIRBUS,    A320neo,   330
 cargoPlane, 5425, 853, 12600, AN, 124, 120000
-cargoPlane,   5425,   853,   12600,   AN,  124,   120000
+cargoPlane,   5425,   853,   12600,   AN124,   120000
 null
 cargoPlane, 5560, AN, 125,

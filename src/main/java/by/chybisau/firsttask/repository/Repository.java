@@ -15,6 +15,6 @@ public interface Repository<T> {
     boolean add(T t);
     boolean remove(T t);
     boolean remove(FlyingMashinesSpecification<T> specification);
-    Optional<T> update(FlyingMashine flyingMashineForUpdate);
+    Optional<T> update(T t);
     List<T> query(FlyingMashinesSpecification<T> specification);
 }

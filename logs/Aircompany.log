@@ -16893,3 +16893,143 @@
 21:55:13 ERROR chybisau.firsttask.factory.FlyingMachinesFactory - Error in creation flying machines. Mismatch dates from file
 21:55:13 ERROR chybisau.firsttask.factory.FlyingMachinesFactory - Error in creation flying machines. Mismatch dates from file
 21:55:13 ERROR chybisau.firsttask.factory.FlyingMachinesFactory - Error in creation flying machines. Mismatch dates from file
+21:59:01 DEBUG chybisau.firsttask.creator.CargoPlaneCreator - Creating cargo plane
+21:59:01 DEBUG chybisau.firsttask.creator.CargoPlaneCreator - Creating cargo plane
+21:59:01 DEBUG chybisau.firsttask.creator.CargoPlaneCreator - Creating cargo plane
+21:59:01 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+21:59:01 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+21:59:01 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+21:59:01 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+21:59:01 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+21:59:01 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+21:59:01 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+21:59:01 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+21:59:01 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+21:59:01 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+21:59:01 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+21:59:01 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+21:59:01 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+21:59:01 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+21:59:01 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+21:59:01 DEBUG chybisau.firsttask.receiver.DataReceiver - Getting dates from file
+21:59:01 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+21:59:01 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+21:59:01 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+21:59:01 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+21:59:01 DEBUG chybisau.firsttask.creator.CargoPlaneCreator - Creating cargo plane
+21:59:01 DEBUG chybisau.firsttask.creator.CargoPlaneCreator - Creating cargo plane
+21:59:01 ERROR chybisau.firsttask.factory.FlyingMachinesFactory - Error in creation flying machines. Mismatch dates from file
+21:59:01 ERROR chybisau.firsttask.factory.FlyingMachinesFactory - Error in creation flying machines. Mismatch dates from file
+21:59:01 ERROR chybisau.firsttask.factory.FlyingMachinesFactory - Error in creation flying machines. Mismatch dates from file
+22:02:29 DEBUG chybisau.firsttask.creator.CargoPlaneCreator - Creating cargo plane
+22:02:29 DEBUG chybisau.firsttask.creator.CargoPlaneCreator - Creating cargo plane
+22:02:29 DEBUG chybisau.firsttask.creator.CargoPlaneCreator - Creating cargo plane
+22:02:30 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:02:30 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:02:30 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:02:30 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:02:30 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:02:30 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:02:30 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:02:30 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:02:30 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:02:30 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:02:30 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:02:30 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:02:30 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:02:30 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:02:30 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:02:30 DEBUG chybisau.firsttask.receiver.DataReceiver - Getting dates from file
+22:02:30 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:02:30 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:02:30 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:02:30 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:02:30 DEBUG chybisau.firsttask.creator.CargoPlaneCreator - Creating cargo plane
+22:02:30 DEBUG chybisau.firsttask.creator.CargoPlaneCreator - Creating cargo plane
+22:02:30 ERROR chybisau.firsttask.factory.FlyingMachinesFactory - Error in creation flying machines. Mismatch dates from file
+22:02:30 ERROR chybisau.firsttask.factory.FlyingMachinesFactory - Error in creation flying machines. Mismatch dates from file
+22:02:30 ERROR chybisau.firsttask.factory.FlyingMachinesFactory - Error in creation flying machines. Mismatch dates from file
+22:03:21 DEBUG chybisau.firsttask.creator.CargoPlaneCreator - Creating cargo plane
+22:03:21 DEBUG chybisau.firsttask.creator.CargoPlaneCreator - Creating cargo plane
+22:03:21 DEBUG chybisau.firsttask.creator.CargoPlaneCreator - Creating cargo plane
+22:03:21 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:03:21 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:03:21 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:03:21 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:03:21 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:03:21 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:03:21 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:03:21 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:03:21 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:03:21 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:03:21 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:03:21 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:03:21 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:03:21 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:03:21 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:03:21 DEBUG chybisau.firsttask.receiver.DataReceiver - Getting dates from file
+22:03:21 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:03:21 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:03:21 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:03:21 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:03:21 DEBUG chybisau.firsttask.creator.CargoPlaneCreator - Creating cargo plane
+22:03:21 DEBUG chybisau.firsttask.creator.CargoPlaneCreator - Creating cargo plane
+22:03:21 ERROR chybisau.firsttask.factory.FlyingMachinesFactory - Error in creation flying machines. Mismatch dates from file
+22:03:21 ERROR chybisau.firsttask.factory.FlyingMachinesFactory - Error in creation flying machines. Mismatch dates from file
+22:03:21 ERROR chybisau.firsttask.factory.FlyingMachinesFactory - Error in creation flying machines. Mismatch dates from file
+22:03:32 DEBUG chybisau.firsttask.creator.CargoPlaneCreator - Creating cargo plane
+22:03:32 DEBUG chybisau.firsttask.creator.CargoPlaneCreator - Creating cargo plane
+22:03:32 DEBUG chybisau.firsttask.creator.CargoPlaneCreator - Creating cargo plane
+22:03:32 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:03:32 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:03:32 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:03:32 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:03:32 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:03:32 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:03:32 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:03:32 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:03:32 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:03:32 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:03:32 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:03:32 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:03:32 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:03:32 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:03:32 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:03:32 DEBUG chybisau.firsttask.receiver.DataReceiver - Getting dates from file
+22:03:32 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:03:32 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:03:32 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:03:32 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:03:32 DEBUG chybisau.firsttask.creator.CargoPlaneCreator - Creating cargo plane
+22:03:32 DEBUG chybisau.firsttask.creator.CargoPlaneCreator - Creating cargo plane
+22:03:32 ERROR chybisau.firsttask.factory.FlyingMachinesFactory - Error in creation flying machines. Mismatch dates from file
+22:03:32 ERROR chybisau.firsttask.factory.FlyingMachinesFactory - Error in creation flying machines. Mismatch dates from file
+22:03:32 ERROR chybisau.firsttask.factory.FlyingMachinesFactory - Error in creation flying machines. Mismatch dates from file
+22:04:41 DEBUG chybisau.firsttask.creator.CargoPlaneCreator - Creating cargo plane
+22:04:41 DEBUG chybisau.firsttask.creator.CargoPlaneCreator - Creating cargo plane
+22:04:41 DEBUG chybisau.firsttask.creator.CargoPlaneCreator - Creating cargo plane
+22:04:41 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:04:41 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:04:41 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:04:41 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:04:41 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:04:41 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:04:41 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:04:41 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:04:41 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:04:41 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:04:41 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:04:41 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:04:41 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:04:41 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:04:41 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:04:41 DEBUG chybisau.firsttask.receiver.DataReceiver - Getting dates from file
+22:04:41 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:04:41 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:04:41 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating passanger plane
+22:04:41 DEBUG chybisau.firsttask.creator.PassangerPlaneCreator - Creating cargo plane
+22:04:41 DEBUG chybisau.firsttask.creator.CargoPlaneCreator - Creating cargo plane
+22:04:41 DEBUG chybisau.firsttask.creator.CargoPlaneCreator - Creating cargo plane
+22:04:41 ERROR chybisau.firsttask.factory.FlyingMachinesFactory - Error in creation flying machines. Mismatch dates from file
+22:04:41 ERROR chybisau.firsttask.factory.FlyingMachinesFactory - Error in creation flying machines. Mismatch dates from file
+22:04:41 ERROR chybisau.firsttask.factory.FlyingMachinesFactory - Error in creation flying machines. Mismatch dates from file

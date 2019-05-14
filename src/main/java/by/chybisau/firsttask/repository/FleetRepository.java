@@ -2,6 +2,8 @@ package by.chybisau.firsttask.repository;
 
 import by.chybisau.firsttask.entity.FlyingMashine;
 import by.chybisau.firsttask.logic.filter.FlyingMashinesSpecification;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,6 +16,8 @@ import java.util.stream.Collectors;
  * @project Aircompany3
  */
 public class FleetRepository implements Repository<FlyingMashine> {
+
+    private static final Logger logger = LogManager.getLogger();
 
     private List<FlyingMashine> flyingMashines;
 
@@ -65,14 +69,6 @@ public class FleetRepository implements Repository<FlyingMashine> {
             sb.append(fm).append("\n");
         }
         return sb.toString();
-    }
-
-    public FlyingMashine get(int a) {
-        return flyingMashines.get(a);
-    }
-
-    public void clear() {
-        flyingMashines.clear();
     }
 
 }

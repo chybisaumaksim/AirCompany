@@ -34,14 +34,11 @@ public class FleetRepositoryTest {
         fleetRepository.add(flyingMashine);
         fleetRepository.add(flyingMashine2);
         fleetRepository.add(flyingMashine3);
-        for (int i = 0; i < 3; i++) {
-            System.out.println(fleetRepository.get(i));
-        }
     }
 
     @AfterMethod
     public void tearDown() {
-        fleetRepository.clear();
+        fleetRepository=null;
     }
 
     @Test(dataProvider = "dataForAddAndDelete")
